@@ -1,0 +1,36 @@
+/* Theme Name: Aeros - Gruptech Cloud Innovations Theme V1
+ * Theme URI: aeros.io
+ * Author: Rigoberto Salas y Brian Amaya | Aeros Team Work
+ * Description: El presente desarrollo es un tema especializada para atender las necesidades de la empresa Gruptech Cloud Innovations LLC.
+ * Version: V1
+ * License: POR DEFINIR
+ * License URI: POR DEFINIR
+ */
+/* TABLA DE CONTENIDO:
+ * 1- DECLARACION DE VARIABLES
+ * 2- IMPORTACIONES
+ * 3- GENERAL
+ */
+/* DECLARACION DE VARIABLES
+ */
+/* COLORES */
+/* FUENTE */
+/* TIPOGRAFIA */
+/* IMPORTACIONES
+ */
+/* NORMALIZE */
+@import url(assets/css/normalize.css);
+/* BRIAN STYLES */
+@import url(assets/css/brian.css);
+@import url(assets/css/brianS.css);
+/* RIGO STYLES */
+@import url(assets/css/rigo.css);
+/* GENERAL
+ */
+* {
+  font-family: "Josefin Sans", sans-serif !important; }
+
+body {
+  background-color: #ECEDF5; }
+
+/*# sourceMappingURL=style.css.map */
