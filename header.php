@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Gruptech Cloud Innovations</title>
+	<title>Gruptech Dominican Republic | Jugos Orgánicos Naturales y Soluciones Industriales</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<?php wp_head(); ?>
@@ -11,6 +11,50 @@
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400" rel="stylesheet">
 </head>
 <body>
+	<div class="first-view" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/background-upper.jpg');">
+		<header class="wrap">
+			<div class="container supra-header">
+				<div class="row">
+					<div class="col-sm-6">
+						<ul class="rrss nav">
+							<li class="nav-item"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/facebook-logo.png" alt="Facebook"></a></li>
+							<li class="nav-item"><a 	href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/instagram-logo.png" alt="Instagram"></a></li>
+							<li class="nav-item"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/linkedin-logo.png" alt="Linkedin"></a></li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<div class="supra-info">
+							<ul class="nav justify-content-end">
+								<li class="nav-item">
+									<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/phone-logo.png" alt="call us">(829) 410-0286</p>
+								</li>
+								<li>
+									<a href="#">English</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container infra-header">
+				<div class="row">
+					<div class="col-sm-5">
+						
+					</div>
+					<div class="col-sm-2 logo">
+						<p><a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="GTDR Logo" title="Gruptech Dominican Republic">
+						</a></p>
+					</div>
+					<div class="col-sm-5">
+						
+					</div>
+				</div>
+			</div>
+		</header>
+	</div>
+
+<!-- 	
 		<div class="loader">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logogtci-cuadro.png" style="width: 10%" alt="Loading...">
           <div class="bar"></div>
@@ -91,4 +135,4 @@
         <span class="navbar-toggler-icon"></span>
       </button>
     </nav>
-  </div>
+  </div> -->

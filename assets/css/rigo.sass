@@ -19,10 +19,13 @@
 
 /* COLORES */
 
+$morado-1: #482E78
+
 $negro-fuerte: #000000
 $negro-mate: #3B3B3B
 $blanco-fuerte: #FFFFFF
 $blanco-suave: #EDEEF6
+
 $verde-fosfo: #0DFF72
 $azul-mate: #22448E
 $azul-fosfo: #00B9FF
@@ -39,35 +42,50 @@ $tam-bread-principal: 2.5rem
 $tam-bread-secundario: 1.3rem
 $tam-parrafo-normal: 1rem
 
+.wrap	
+	width: 100%
+	max-width: 1200px
+	margin: 0 auto
+
 /* HEADER */
 
 body
-	header
-		padding-top: 1.5rem
-		background-color: $blanco-fuerte
-		.container
-			.row
+	.first-view
+		background-size: cover
+		height: 50rem
+		background-position: center
+		header
+			.supra-header
+				.rrss
+					padding-top: 0.5rem
+					li
+						margin: 0rem 0.5rem
+				.supra-info
+					li
+						padding: 0rem 1rem
+						padding-top: 0.5rem
+						background-color: $morado-1
+						img
+							max-width: 1rem	
+						p
+							color: $blanco-fuerte
+							margin-bottom: 0.5rem
+						a
+							color: $blanco-fuerte
+						&:first-child
+							border-radius: 0px 0px 0rem 2rem
+						&:last-child
+							border-radius: 0px 0px 2rem 0rem
+			.infra-header
 				.logo
 					p
 						text-align: center
-						a
-							img
-								max-width: 150px
-				nav
-					padding: 19px 0px
-					ul
-						li
-							a
-								font-size: $tam-menu
-								color: $negro-mate
-								transition: 300ms all ease
-								border-bottom: 0.1rem solid $blanco-fuerte !important
-								&:hover
-									border-bottom: 0.1rem solid $verde-fosfo !important
-	.mobile-navigation
-		display: none
+						img
+							max-width: 8rem
 
-/* FOOTER */
+
+
+/* FOOTER 
 body
 	footer
 		margin-top: 1rem
@@ -93,7 +111,7 @@ body
 			.author
 				font-size: $tam-footer-secundario
 
-/* BREADCRUMB */
+/* BREADCRUMB 
 
 body
 	.breadcrumb
@@ -119,7 +137,7 @@ body
 		h1
 			margin: 2.5rem 0
 
-/* ABOUT */
+/* ABOUT 
 body
 	.wrap-960
 		max-width: 960px
@@ -189,7 +207,7 @@ body
 			h2
 				font-size: $tam-bread-principal
 
-/* CALL CONTACT*/
+/* CALL CONTACT
 
 body
 	.call-contact
@@ -245,7 +263,7 @@ body
 	.wpcf7-textarea
 		height: 5rem
 
-/* PRODSERV */
+/* PRODSERV 
 body
 	.porserv-info
 		margin: 5rem auto
@@ -280,7 +298,7 @@ body
 		p
 			text-align: center
 
-/* CALL SUBS */
+/* CALL SUBS 
 body
 	.wrap-call-contact
 		h4
@@ -289,7 +307,7 @@ body
 		h4,h2
 			text-align: center
 
-/* SLIDER */
+/* SLIDER 
 body
 	.bg-slider
 		padding: 2.5rem 0rem
@@ -338,8 +356,7 @@ body
 		.active
 			background-color: $azul-fosfo
 
-/* INDEX */
-
+/* INDEX 
 body
 	.wrap-post
 		margin: 5rem auto
@@ -444,7 +461,7 @@ body
 			&:hover
 				opacity: 0.5
 
-/* PAGE & POST */
+/* PAGE & POST 
 
 body
 	.wrap-page-content, .wrap-post-content
@@ -453,7 +470,7 @@ body
 		width: 100%
 		max-width: 1200px
 
-/* MISCELLANEOUS */
+/* MISCELLANEOUS 
 
 body
 	.loader
@@ -463,7 +480,7 @@ body
 		display: none
 
 
-/* RESPONSIVO */
+/* RESPONSIVO 
 
 @media screen and (max-width: 768px)
 	body

@@ -16,25 +16,39 @@
 /* VARIABLES */
 /* COLORES */
 /* TIPOGRAFIA */
+.wrap {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto; }
+
 /* HEADER */
-body header {
-  padding-top: 1.5rem;
-  background-color: #FFFFFF; }
-  body header .container .row .logo p {
+body .first-view {
+  background-size: cover;
+  height: 50rem;
+  background-position: center; }
+  body .first-view header .supra-header .rrss {
+    padding-top: 0.5rem; }
+    body .first-view header .supra-header .rrss li {
+      margin: 0rem 0.5rem; }
+  body .first-view header .supra-header .supra-info li {
+    padding: 0rem 1rem;
+    padding-top: 0.5rem;
+    background-color: #482E78; }
+    body .first-view header .supra-header .supra-info li img {
+      max-width: 1rem; }
+    body .first-view header .supra-header .supra-info li p {
+      color: #FFFFFF;
+      margin-bottom: 0.5rem; }
+    body .first-view header .supra-header .supra-info li a {
+      color: #FFFFFF; }
+    body .first-view header .supra-header .supra-info li:first-child {
+      border-radius: 0px 0px 0rem 2rem; }
+    body .first-view header .supra-header .supra-info li:last-child {
+      border-radius: 0px 0px 2rem 0rem; }
+  body .first-view header .infra-header .logo p {
     text-align: center; }
-    body header .container .row .logo p a img {
-      max-width: 150px; }
-  body header .container .row nav {
-    padding: 19px 0px; }
-    body header .container .row nav ul li a {
-      font-size: 1rem;
-      color: #3B3B3B;
-      transition: 300ms all ease;
-      border-bottom: 0.1rem solid #FFFFFF !important; }
-      body header .container .row nav ul li a:hover {
-        border-bottom: 0.1rem solid #0DFF72 !important; }
-body .mobile-navigation {
-  display: none; }
+    body .first-view header .infra-header .logo p img {
+      max-width: 8rem; }
 
 /* FOOTER */
 body footer {
