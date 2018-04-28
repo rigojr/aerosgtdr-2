@@ -1,6 +1,11 @@
 /* TABLA DE CONTENIDO */
 /* 0 - VARIABLES
  * 1 - HEADER
+ * 2 - FIRST VIEWW
+ * 3 - ABOUT y SOLUCIONES
+ * 4 - Subscription Form
+ * 5 - FOOTER
+ *
  * 2 - FOOTER
  * 3 - BREADCRUMB
  * 4 - ABOUT
@@ -24,8 +29,7 @@
 /* HEADER */
 body .first-view {
   background-size: cover;
-  height: 50rem;
-  background-position: center; }
+  background-position: center top; }
   body .first-view header .supra-header .rrss {
     padding-top: 0.5rem; }
     body .first-view header .supra-header .rrss li {
@@ -49,6 +53,135 @@ body .first-view {
     text-align: center; }
     body .first-view header .infra-header .logo p img {
       max-width: 8rem; }
+  body .first-view header nav ul {
+    margin-top: 2.5rem; }
+    body .first-view header nav ul li {
+      margin: 0 0.5rem; }
+      body .first-view header nav ul li a {
+        font-size: 1.5rem;
+        color: #FFFFFF;
+        font-weight: 300; }
+
+/* FIRST-VIEW */
+body .first-view-info {
+  margin-top: 3rem; }
+  body .first-view-info .img-jugos p {
+    text-align: center; }
+  body .first-view-info .img-jugos img {
+    width: 100%;
+    max-width: 400px; }
+  body .first-view-info .info-jugos {
+    padding: 2rem; }
+body .card {
+  border: none;
+  border-radius: 0.5rem; }
+  body .card .card-body {
+    padding: 1.5rem; }
+    body .card .card-body .card-title {
+      font-size: 1.2rem !important; }
+    body .card .card-body .card-text {
+      text-align: justify;
+      font-weight: 300;
+      margin: 0 0; }
+    body .card .card-body .normal-btn p {
+      text-align: right;
+      margin: 0 0; }
+    body .card .card-body .normal-btn a {
+      font-size: 1rem !important;
+      color: #FFFFFF !important;
+      border-radius: 0.5rem !important;
+      background-color: #482E78 !important;
+      border-color: #482E78 !important;
+      font-weight: 300;
+      background-size: cover;
+      box-shadow: 12px 15px 20px rgba(0, 0, 0, 0.1);
+      transition: 300ms all ease; }
+      body .card .card-body .normal-btn a:hover {
+        box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.1);
+        background-color: #CC340B !important;
+        border-color: #CC340B !important; }
+body .natural {
+  margin-top: 3rem; }
+  body .natural h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #482E78;
+    font-family: "Indie Flower", cursive !important; }
+
+/* ABOUT Y SOLUCIONES */
+body .about, body .soluciones {
+  margin-top: 3rem; }
+  body .about .img-about p, body .about .img-sol p, body .soluciones .img-about p, body .soluciones .img-sol p {
+    text-align: center; }
+    body .about .img-about p img, body .about .img-sol p img, body .soluciones .img-about p img, body .soluciones .img-sol p img {
+      box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.3); }
+  body .about .title-about, body .soluciones .title-about {
+    color: #CC340B;
+    font-family: "Indie Flower", cursive !important;
+    font-size: 2rem !important; }
+body .bg {
+  background-size: cover;
+  background-position: center; }
+body .clip {
+  margin-top: 3rem; }
+  body .clip h2 {
+    text-align: center;
+    color: #482E78;
+    font-size: 3rem;
+    padding-bottom: 1.5rem;
+    margin: 0; }
+
+/* Subscription Form */
+body .call-subs {
+  padding: 1.5rem 0rem;
+  background-color: #CC340B; }
+  body .call-subs .call-subs-title {
+    color: #FFFFFF; }
+    body .call-subs .call-subs-title h2 {
+      text-align: center;
+      font-family: "Indie Flower", cursive !important; }
+  body .call-subs .call-subs-form br {
+    display: none; }
+  body .call-subs .call-subs-form input {
+    width: 35% !important;
+    margin: 0 0.35rem; }
+  body .call-subs .call-subs-form .wpcf7-submit {
+    border: none;
+    font-size: 1rem !important;
+    color: #FFFFFF !important;
+    border-radius: 0.5rem !important;
+    background-color: #482E78 !important;
+    border-color: #482E78 !important;
+    font-weight: 300;
+    background-size: cover;
+    box-shadow: 12px 15px 20px rgba(0, 0, 0, 0.1);
+    transition: 300ms all ease;
+    padding: 0.3rem 0rem; }
+    body .call-subs .call-subs-form .wpcf7-submit:hover {
+      box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.1);
+      background-color: #FFFFFF !important;
+      border-color: #FFFFFF !important;
+      color: #482E78 !important; }
+  body .call-subs .call-subs-form .wpcf7-submit {
+    width: 20% !important; }
+
+/* FOOTER */
+body footer {
+  background-color: #482E78;
+  margin: 0 !important;
+  padding: 2rem 0rem; }
+  body footer .center p {
+    text-align: center; }
+  body footer .center img {
+    max-width: 150px;
+    width: 100%; }
+  body footer .center .craft img {
+    max-width: 100px; }
+  body footer .center .copy {
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 1rem; }
 
 /* FOOTER */
 body footer {

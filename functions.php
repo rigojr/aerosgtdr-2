@@ -3,11 +3,21 @@
 function genesis_widgets() {
 
 	register_sidebar( array(
-		'name'          => 'Why Us Submenu Widget',
-		'id'            => 'whyus-submenu',
+		'name'          => 'Subs Form',
+		'id'            => 'sub-form',
 		'description'   => 'No desc',
-		'before_widget' => '<div id="%1$s" class="submenu">',
-		'after_widget'  => '</div>',
+		'before_widget' => '',
+		'after_widget'  => '',
+		'before_title'  => '',
+		'after_title'   => '',
+	) );
+
+	register_sidebar( array(
+		'name'          => 'Menu Widget Right',
+		'id'            => 'menu-right',
+		'description'   => 'No desc',
+		'before_widget' => '<nav id="%1$s" class="menu-nav">',
+		'after_widget'  => '</nav>',
 		'before_title'  => '',
 		'after_title'   => '',
 	) );

@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 </head>
 <body>
 	<div class="first-view" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/background-upper.jpg');">
@@ -38,21 +39,34 @@
 			</div>
 			<div class="container infra-header">
 				<div class="row">
-					<div class="col-sm-5">
-						
-					</div>
+					<nav class="col-sm-5">
+						<ul class="nav justify-content-center">
+							<li class="nav-item">
+								<a class="nav-link" href="#">CONTACTO</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">SERVICIOS</a>
+							</li>
+						</ul>
+					</nav>
 					<div class="col-sm-2 logo">
 						<p><a href="<?php echo esc_url( home_url( '/' ) ); ?>">
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="GTDR Logo" title="Gruptech Dominican Republic">
 						</a></p>
 					</div>
-					<div class="col-sm-5">
-						
-					</div>
+					<nav class="col-sm-5">
+						<ul class="nav justify-content-center">
+							<li class="nav-item">
+								<a class="nav-link" href="#">SABORES</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">NOSOTROS</a>
+							</li>
+						</ul>
+					</nav>
 				</div>
 			</div>
 		</header>
-	</div>
 
 <!-- 	
 		<div class="loader">

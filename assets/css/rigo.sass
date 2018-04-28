@@ -2,6 +2,11 @@
 /*
 	0 - VARIABLES
 	1 - HEADER
+	2 - FIRST VIEWW
+	3 - ABOUT y SOLUCIONES
+	4 - Subscription Form
+	5 - FOOTER
+
 	2 - FOOTER
 	3 - BREADCRUMB
 	4 - ABOUT
@@ -20,6 +25,7 @@
 /* COLORES */
 
 $morado-1: #482E78
+$rojo: #CC340B
 
 $negro-fuerte: #000000
 $negro-mate: #3B3B3B
@@ -34,6 +40,13 @@ $gris: #A6A6A6
 $verde-obscurito: #28A745
 
 /* TIPOGRAFIA */
+
+$tam-nav: 1.5rem
+$tam-secundario: 1.2rem
+$tam-secundario-normal: 1rem
+$tam-principal-grande: 3rem
+$tam-principal: 2rem
+$font-indie: 'Indie Flower', cursive
 
 $tam-menu: 1rem
 $tam-footer-principal: 1rem
@@ -52,8 +65,7 @@ $tam-parrafo-normal: 1rem
 body
 	.first-view
 		background-size: cover
-		height: 50rem
-		background-position: center
+		background-position: center top
 		header
 			.supra-header
 				.rrss
@@ -82,7 +94,146 @@ body
 						text-align: center
 						img
 							max-width: 8rem
+			nav
+				ul
+					margin-top: 2.5rem
+					li
+						margin: 0 0.5rem
+						a
+							font-size: $tam-nav
+							color: $blanco-fuerte
+							font-weight: 300
 
+/* FIRST-VIEW */
+body
+	.first-view-info
+		margin-top: 3rem
+		.img-jugos
+			p
+				text-align: center
+			img
+				width: 100%
+				max-width: 400px
+		.info-jugos
+			padding: 2rem
+	.card
+		border: none
+		border-radius: .5rem
+		.card-body
+			padding: 1.5rem
+			.card-title
+				font-size: $tam-secundario !important
+			.card-text
+				text-align: justify
+				font-weight: 300
+				margin: 0 0
+			.normal-btn
+				p
+					text-align: right
+					margin: 0 0
+				a
+					font-size: 1rem !important
+					color: $blanco-fuerte !important
+					border-radius: .5rem !important
+					background-color: $morado-1 !important
+					border-color: $morado-1 !important
+					font-weight: 300
+					background-size: cover
+					box-shadow: 12px 15px 20px rgba(0,0,0,.1)
+					transition: 300ms all ease
+					&:hover
+						box-shadow: 2px 4px 8px 0 rgba(0,0,0,.1)
+						background-color: $rojo !important
+						border-color: $rojo !important
+	.natural
+		margin-top: 3rem
+		h2
+			text-align: center
+			font-size: $tam-principal-grande
+			color: $morado-1
+			font-family: $font-indie !important
+
+/* ABOUT Y SOLUCIONES */
+body
+	.about, .soluciones
+		margin-top: 3rem
+		.img-about, .img-sol
+			p
+				text-align: center
+				img 
+					box-shadow: 7px 7px 10px rgba(0,0,0,.3)
+		.title-about
+			color: $rojo
+			font-family: $font-indie !important
+			font-size: $tam-principal !important
+	.bg
+		background-size: cover
+		background-position: center
+	.clip
+		margin-top: 3rem
+		h2
+			text-align: center
+			color: $morado-1
+			font-size: $tam-principal-grande
+			padding-bottom: 1.5rem
+			margin: 0
+
+/* Subscription Form */
+body
+	.call-subs
+		padding: 1.5rem 0rem
+		background-color: $rojo
+		.call-subs-title
+			color: $blanco-fuerte
+			h2
+				text-align: center
+				font-family: $font-indie !important
+		.call-subs-form
+			br
+				display: none
+			input
+				width: 35% !important
+				margin: 0 .35rem
+			.wpcf7-submit
+				border: none
+				font-size: 1rem !important
+				color: $blanco-fuerte !important
+				border-radius: .5rem !important
+				background-color: $morado-1 !important
+				border-color: $morado-1 !important
+				font-weight: 300
+				background-size: cover
+				box-shadow: 12px 15px 20px rgba(0,0,0,.1)
+				transition: 300ms all ease
+				padding: .3rem 0rem
+				&:hover
+					box-shadow: 2px 4px 8px 0 rgba(0,0,0,.1)
+					background-color: $blanco-fuerte !important
+					border-color: $blanco-fuerte !important
+					color: $morado-1 !important
+			.wpcf7-submit
+				width: 20% !important
+
+/* FOOTER */
+body
+	footer
+		background-color: $morado-1
+		margin: 0 !important
+		padding: 2rem 0rem
+		.center
+			p
+				text-align: center
+			img
+				max-width: 150px
+				width: 100%
+			.craft
+				img
+					max-width: 100px
+			.copy
+				text-align: center
+				color: $blanco-fuerte
+				font-weight: 300
+				font-size: $tam-secundario-normal
 
 
 /* FOOTER 
