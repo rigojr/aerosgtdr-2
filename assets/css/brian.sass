@@ -1,0 +1,190 @@
+/* COLORES */
+
+$morado-1: #482E78
+$rojo: #CC340B
+
+$negro-fuerte: #000000
+$negro-mate: #3B3B3B
+$blanco-fuerte: #FFFFFF
+$blanco-suave: #EDEEF6
+
+$verde-fosfo: #0DFF72
+$azul-mate: #22448E
+$azul-fosfo: #00B9FF
+$moradito: #494A9F
+$gris: #A6A6A6
+$verde-obscurito: #28A745
+
+/* TIPOGRAFIA */
+
+$tam-nav: 1.5rem
+$tam-secundario: 1.2rem
+$tam-secundario-normal: 1rem
+$tam-principal-grande: 3rem
+$tam-principal: 2rem
+$font-indie: 'Indie Flower', cursive
+
+$tam-menu: 1rem
+$tam-footer-principal: 1rem
+$tam-footer-secundario: 0.85rem
+$tam-bread-principal: 2.5rem
+$tam-bread-secundario: 1.3rem
+$tam-parrafo-normal: 1rem
+
+/*BREADCRUMB*/
+.breadcrumb
+	background-color: rgba(204,52,11,0.75)
+	h2, div.error-details
+		text-align: center
+		color: $blanco-fuerte
+		width: 100%
+	div.error-actions
+		text-align: center
+		.push
+			margin-left: 2rem
+
+/*CLIP*/
+*, *::after, *::before 
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+
+.cd-headline 
+	font-size: 3rem
+	line-height: 1.2
+	.cd-words-wrapper 
+		display: inline-block
+		position: relative
+		text-align: left
+		b
+			display: inline-block
+			position: absolute
+			white-space: nowrap
+			left: 0
+			top: 0
+			&.is-visible
+				position: relative
+	&.push
+		span
+			display: inline-block
+			padding: .2rem 0
+		b
+			opacity: 0
+			&.is-visible
+				opacity: 1
+				-webkit-animation: push-in 1s
+				-moz-animation: push-in 1s
+				animation: push-in 1s
+			&.is-hidden
+				-webkit-animation: push-out 1s
+				-moz-animation: push-out 1s
+				animation: push-out 1s
+
+@-webkit-keyframes push-in 
+	0% 
+		opacity: 0
+		-webkit-transform: translateX(-100%)
+	60% 
+		opacity: 1
+		-webkit-transform: translateX(10%)
+	100% 
+		opacity: 1
+		-webkit-transform: translateX(0)
+@-moz-keyframes push-in 
+	0% 
+		opacity: 0
+		-moz-transform: translateX(-100%)
+
+	60% 
+		opacity: 1
+		-moz-transform: translateX(10%)
+
+	100% 
+		opacity: 1
+		-moz-transform: translateX(0)
+  
+
+@keyframes push-in 
+	0% 
+		opacity: 0
+		-webkit-transform: translateX(-100%)
+		-moz-transform: translateX(-100%)
+		-ms-transform: translateX(-100%)
+		-o-transform: translateX(-100%)
+		transform: translateX(-100%)
+  
+	60% 
+		opacity: 1
+		-webkit-transform: translateX(10%)
+		-moz-transform: translateX(10%)
+		-ms-transform: translateX(10%)
+		-o-transform: translateX(10%)
+		transform: translateX(10%)
+  
+	100% 
+		opacity: 1
+		-webkit-transform: translateX(0)
+		-moz-transform: translateX(0)
+		-ms-transform: translateX(0)
+		-o-transform: translateX(0)
+		transform: translateX(0)
+
+@-webkit-keyframes push-out 
+	0% 
+		opacity: 1
+		-webkit-transform: translateX(0)
+  
+	60% 
+		opacity: 0
+		-webkit-transform: translateX(110%)
+
+	100%
+		opacity: 0
+		-webkit-transform: translateX(100%)
+  
+
+@-moz-keyframes push-out 
+	0% 
+		opacity: 1
+		-moz-transform: translateX(0)
+
+	60% 
+		opacity: 0
+		-moz-transform: translateX(110%)
+
+	100%
+		opacity: 0
+		-moz-transform: translateX(100%)
+
+@keyframes push-out 
+	0% 
+		opacity: 1
+		-webkit-transform: translateX(0)
+		-moz-transform: translateX(0)
+		-ms-transform: translateX(0)
+		-o-transform: translateX(0)
+		transform: translateX(0)
+
+	60% 
+		opacity: 0
+		-webkit-transform: translateX(110%)
+		-moz-transform: translateX(110%)
+		-ms-transform: translateX(110%)
+		-o-transform: translateX(110%)
+		transform: translateX(110%)
+
+	100% 
+		opacity: 0
+		-webkit-transform: translateX(100%)
+		-moz-transform: translateX(100%)
+		-ms-transform: translateX(100%)
+		-o-transform: translateX(100%)
+		transform: translateX(100%)
+
+@media only screen and (min-width: 768px) 
+	.cd-headline
+		font-size: 4.4rem
+		font-weight: 300
+@media only screen and (min-width: 1170px) 
+	.cd-headline 
+		font-size: 6rem

@@ -65,9 +65,19 @@
 				<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/soluciones.jpg" alt="Soluciones Industriales"></p>
 			</div>
 		</div>
-		<div class="clip">
-			<h2>SOSTENIBILIDAD</h2>
-		</div>
+		<h1 class="cd-headline push">
+			<span class="cd-words-wrapper">
+				<b class="is-visible">Trabajo en Equipo</b>
+				<b>Compromiso</b>
+				<b>Responsabilidad</b>
+				<b>Respeto</b>
+				<b>Honestidad</b>
+				<b>Inclusión</b>
+				<b>Pasión</b>
+				<b>Motivación</b>
+				<b>Sostenibilidad</b>
+			</span>
+		</h1>
 	</div>
 </div>
 

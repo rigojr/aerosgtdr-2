@@ -1,6 +1,6 @@
 jQuery(document).ready(function($){
 	//set animation timing
-	var animationDelay = 2500,
+	var animationDelay = 8000,
 		//loading bar effect
 		barAnimationDelay = 3800,
 		barWaiting = barAnimationDelay - 3000, //3000 is the duration of the transition on the loading bar - set in the scss/css file
@@ -11,8 +11,8 @@ jQuery(document).ready(function($){
 		selectionDuration = 500,
 		typeAnimationDelay = selectionDuration + 800,
 		//clip effect 
-		revealDuration = 1000,
-		revealAnimationDelay = 2500;
+		revealDuration = 4000,
+		revealAnimationDelay = 4000;
 	
 	initHeadline();
 	
@@ -148,6 +148,7 @@ jQuery(document).ready(function($){
 	}
 
 	function switchWord($oldWord, $newWord) {
+		sleep(5000)
 		$oldWord.removeClass('is-visible').addClass('is-hidden');
 		$newWord.removeClass('is-hidden').addClass('is-visible');
 	}
