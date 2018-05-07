@@ -51,7 +51,26 @@ function genesis_widgets() {
 		'before_title'  => '',
 		'after_title'   => '',
 	) );
+
+	register_sidebar( array(
+		'name'          => 'Widget Footer Left',
+		'id'            => 'footer-left',
+		'description'   => 'No desc',
+		'before_widget' => '',
+		'after_widget'  => '',
+		'before_title'  => '',
+		'after_title'   => '',
+	) );
 	
+	register_sidebar( array(
+		'name'          => 'Widget Footer Right',
+		'id'            => 'footer-right',
+		'description'   => 'No desc',
+		'before_widget' => '',
+		'after_widget'  => '',
+		'before_title'  => '',
+		'after_title'   => '',
+	) );
 }
 
 add_action( 'widgets_init', 'genesis_widgets' );

@@ -1,82 +1,46 @@
+<?php /* Template Name: services-custom*/ ?>
+
 <?php get_header(); ?>
 
-<?php get_template_part( 'breadcrumb-normal' ); ?>
+<?php get_template_part( 'breadcrumb' ); ?>
 
-<div class="wrap-post">
-	
-	<?php if ( have_posts() ) : ?>
-	
-	<section class="container">
-		<?php while ( have_posts() ) : the_post(); ?>
-		<div class="row card wrap-single-post">
-			<div class="cardbody">
-				<div class="category-post">
-					<?php echo get_the_category_list(); ?>
-				</div>
-				<div class="title-post">
-					<h2>
-						<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-					</h2>
-				</div>
-				<div class="content-post row">
-					<div class="img-post col-sm-6">
-						<p>
-							<a href="<?php the_permalink(); ?>">
-								<?php if (has_post_thumbnail()){ the_post_thumbnail('list_articles_thumbs');} ?>
-							</a>
-						</p>
-					</div>
-					<div class="desc-post col-sm-6">
-						<?php the_excerpt(); ?>
-					</div>
-				</div>
-				<div class="content-post row">
-					<div class="img-name col-sm-6">
-						<h3>
-							<i><?php echo get_the_post_thumbnail_caption() ?></i>
-						</h3>
-					</div>
-					<div class="author-post col-sm-3">
-						<p><time><i><?php the_time('j F, Y'); ?></i></time> by <b><?php the_author_posts_link() ?></b></p>
-					</div>
-					<div class="btn-read col-sm-3">
-						<p class="call-contact-btn"><a class="btn btn-success" href="<?php the_permalink(); ?>">READ MORE</a></p>
-					</div>
-				</div>
-				<div class="tags-post">
-            		<?php the_tags('<ul><li>','</li><li>','</li></ul>'); ?>            
-				</div>
-			</div>				
-		
-		</div>
-		
-		<?php endwhile; ?>
-	
-	<div class="pagination-posts row">
-		<div class="col-sm-4 prev-pagination">
+<div class="title-custom">
+	<h2>Soluciones para la Industria Dominicana</h2>
+</div>
+<div class="wrap">
+	<div class="row">
+		<div class="col-sm-6 left-info-serv">
 			<p>
-				<?php previous_posts_link('< Back'); ?>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pellentesque facilisis tortor in rhoncus. Donec justo mi, euismod at fermentum ut, consequat sit amet sapien. Donec sed mollis quam. Phasellus rhoncus mollis faucibus. Ut arcu lectus, suscipit ut nunc in, semper congue mi. Vivamus consectetur, odio cursus tincidunt tincidunt, est augue pretium elit, sed pretium erat sapien dictum est. Etiam ultricies venenatis tristique.
+			</p>
+			<p>
+				Nulla eleifend pellentesque orci in consequat. Nam a gravida neque. Aliquam aliquam ipsum vitae euismod tempus. Donec id turpis rutrum, sollicitudin magna et, gravida elit. Duis at sem ex. Quisque ut rhoncus lectus. Aliquam ut sem ipsum. Etiam luctus sagittis ante, venenatis tincidunt augue finibus sit amet. Curabitur non aliquet erat, in scelerisque neque. Cras enim urna, lacinia vitae tempor at, aliquet eu purus. In pharetra velit nec gravida vehicula. Quisque eget nisi ornare, suscipit erat nec, convallis dolor. Cras massa est, interdum ut rhoncus sit amet, vulputate a erat.
 			</p>
 		</div>
-		<div class="col-sm-4 links-pagination">
-				<?php echo get_the_posts_pagination( array( 'mid_size' => 10,)	); ?>
-		</div>
-		<div class="col-sm-4 next-pagination">
-			<p>
-				<?php next_posts_link('Onward >'); ?>
-			</p>
+		<div class="col-sm-6 right-info-serv">
+			<ul>
+				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+				<li>Vestibulum pellentesque facilisis tortor in rhoncus.</li>
+				<li><b>Sed pretium erat sapien dictum est.</b></li>
+				<li>Cras enim urna, lacinia vitae tempor at, aliquet eu purus.</li>
+				<li>Quisque eget nisi ornare, suscipit erat nec, convallis dolor.</li>
+			</ul>
 		</div>
 	</div>
-	<?php else : ?>
-	<h2 class="error-msg">I'm sorry, there arn't News or Events load.</h2>
-	<?php endif; ?>
-
-	</section>
-
-	
-
+	<div class="row img-serv">
+		<div class="col-sm-4">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/industria-3.jpg" alt="Sobre GTDR">
+		</div>
+		<div class="col-sm-4">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/industria-2.jpg" alt="Sobre GTDR">
+		</div>
+		<div class="col-sm-4">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/industria-1.jpg" alt="Sobre GTDR">
+		</div>
+	</div>
+	<div class="normal-btn btn-serv">
+		<p><a class="btn btn-success openF">Contacto</a></p>
+	</div>
 </div>
-
-<?php get_template_part( 'call-subs' ); ?>
 
 <?php get_footer(); ?>

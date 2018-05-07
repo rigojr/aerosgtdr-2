@@ -20,7 +20,7 @@
 		                </div>
 		                <br>
 		                <div class="error-actions">
-		                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="btn btn-primary btn-lg">
+		                    <a class="btn btn-success openF" href="<?php echo esc_url( home_url( '/' ) ); ?>" class="btn btn-primary btn-lg">
 		                        Llévame de vuelta </a>
 	                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="btn btn-primary btn-lg push">
 	                        	Contáctanos </a>

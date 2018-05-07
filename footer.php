@@ -2,6 +2,23 @@
 	<footer>
 		<div class="row wrap">
 			<div class="col-sm-4 rrss">
+				<div class="row">
+					<div class="col-sm-6">
+						<p>
+							Síguenos:
+						</p>
+					</div>
+					<div class="col-sm-6">
+						<ul class="rrss-footer nav">
+							<li class="nav-item"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/facebook-logo.png" alt="Facebook"></a></li>
+							<li class="nav-item"><a 	href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/instagram-logo.png" alt="Instagram"></a></li>
+							<li class="nav-item"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/linkedin-logo.png" alt="Linkedin"></a></li>
+						</ul>
+					</div>
+				</div>
+				<p class="autoria">
+					Diseñado, Desarrollado & Gestionado por <a href="https://aeros.io">Aeros</a>
+				</p>
 			</div>
 			<div class="col-sm-4 center">
 				<p><a href="<?php echo esc_url( home_url( '/' ) ); ?>">
@@ -16,6 +33,34 @@
 				</p>
 			</div>
 			<div class="col-sm-4 navigation">
+				<div class="row">
+					<div class="col-sm-4">
+						<ul>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Inicio</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Nosotros</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Sabores</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-8">
+						<ul>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Servicios</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Contacto</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Política de Privacidad</a>
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</div>
 	</footer>

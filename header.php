@@ -45,7 +45,7 @@
 								<a class="nav-link" href="#">CONTACTO</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">SERVICIOS</a>
+								<a class="nav-link" href="<?php echo esc_url( home_url( '/' ) ); ?>/servicios">SERVICIOS</a>
 							</li>
 						</ul>
 					</nav>

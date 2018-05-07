@@ -6,6 +6,9 @@
 	3 - ABOUT y SOLUCIONES
 	4 - Subscription Form
 	5 - FOOTER
+	6 - 404
+	7 - Breadcrumb
+	8 - services
 
 	2 - FOOTER
 	3 - BREADCRUMB
@@ -127,31 +130,37 @@ body
 				text-align: justify
 				font-weight: 300
 				margin: 0 0
-			.normal-btn
-				p
-					text-align: right
-					margin: 0 0
-				a
-					font-size: 1rem !important
-					color: $blanco-fuerte !important
-					border-radius: .5rem !important
-					background-color: $morado-1 !important
-					border-color: $morado-1 !important
-					font-weight: 300
-					background-size: cover
-					box-shadow: 12px 15px 20px rgba(0,0,0,.1)
-					transition: 300ms all ease
-					&:hover
-						box-shadow: 2px 4px 8px 0 rgba(0,0,0,.1)
-						background-color: $rojo !important
-						border-color: $rojo !important
+	.normal-btn, .error-actions
+		p
+			text-align: right
+			margin: 0 0
+		a
+			font-size: 1rem !important
+			color: $blanco-fuerte !important
+			border-radius: .5rem !important
+			background-color: $morado-1 !important
+			border-color: $morado-1 !important
+			font-weight: 300
+			background-size: cover
+			box-shadow: 12px 15px 20px rgba(0,0,0,.1)
+			transition: 300ms all ease
+			&:hover
+				box-shadow: 2px 4px 8px 0 rgba(0,0,0,.1)
+				background-color: $rojo !important
+				border-color: $rojo !important
 	.natural
 		margin-top: 3rem
-		h2
+		h2,h1
 			text-align: center
 			font-size: $tam-principal-grande
 			color: $morado-1
 			font-family: $font-indie !important
+		h1
+			span
+				text-align: center !important
+		.cd-headline
+			margin: 0
+			padding-bottom: 2rem
 
 /* ABOUT Y SOLUCIONES */
 body
@@ -234,439 +243,95 @@ body
 				color: $blanco-fuerte
 				font-weight: 300
 				font-size: $tam-secundario-normal
-
-
-/* FOOTER 
-body
-	footer
-		margin-top: 1rem
-		padding-top: 1rem
 		.rrss
-			margin-bottom: 0.1rem
-			ul
-				li
-					a
-						padding: 0rem 0.5rem
-						transition: 300ms all ease
-						&:hover
-							opacity: 0.5
-						img
-							max-width: 1rem
-		.copy
+			margin-top: 5rem
 			p
 				text-align: center
-				font-weight: 200
-				margin-bottom: 0.1rem
-			.right
-				font-size: $tam-footer-principal
-			.author
-				font-size: $tam-footer-secundario
+				color: $blanco-fuerte
+				font-size: $tam-nav
+			.autoria
+				font-size: $tam-secundario-normal
+				font-weight: 300
+				a
+					text-decoration: underline
+					color: $blanco-fuerte
+			li
+				padding: 0rem .5rem
+				img
+					max-width: 32px !important
+		.navigation
+			margin-top: 3rem
+			ul
+				list-style: none
+				padding: 0
+				margin: 0
+				li
+					a
+						color: $blanco-fuerte
 
-/* BREADCRUMB 
-
+/* 404 */
 body
 	.breadcrumb
-		border-radius: 0rem
-		.breadcrumb-name
+		margin: 5rem 0rem
+		.error-template
 			h1
-				text-align: center
-				font-size: $tam-bread-principal
-				width: 100%
 				color: $blanco-fuerte
-		.submenu
-			margin: 0 auto
-			ul
-				li
-					a
-						font-size: $tam-bread-secundario
-						color: $blanco-fuerte
-						padding-bottom: 0.1rem
-						&:hover
-							padding-bottom: 0rem
-							border-bottom: 0.1rem solid $verde-fosfo !important
-	.breadcrumb-normal
-		h1
-			margin: 2.5rem 0
-
-/* ABOUT 
-body
-	.wrap-960
-		max-width: 960px
-		margin: 0rem auto
-		.img-whyus
-			padding-top: 5rem
-			img
-				width: 100%
-		.about-info-1
-			h2, .alineado-text
+				font-size: $tam-principal-grande
 				text-align: center
-			p
-				text-align: justify
-		.info-about
-			margin: 5rem 0rem
-		.title-advantages
-			h3
-				font-weight: 700
-				text-align: center
-		.about-info-2
-			text-align: center
-		.bia-movement
-			h2
-				color: $moradito
-				font-weight: 700
-				text-align: center
-		.info-final
-			margin-bottom: 2.5rem
-	.featured-info
-		margin: 1rem 0rem !important
-	.wrap-no-960
-		background-color: $blanco-fuerte
-		padding-top: 2.5rem
-		padding-bottom: 2.5rem
-		h2
-			text-align: center
-			color: $negro-mate
-			font-weight: 700
-		.info-about-2
-			max-width: 1200px
-			width: 100%
-			padding: 2rem 0rem
-			margin: 0 auto
-		.card
-			background-color: $blanco-suave
-			transition: 300ms all ease
-			&:hover
-				background-color: $blanco-fuerte
-			.card-body
-				background-repeat: no-repeat !important
-				background-position: center !important
-				.card-title
-					text-align: left !important
-					margin-bottom: 0rem
-				.card-text
-					text-align: center
-				hr
-					heigth: 0.1rem !important
-					border-top: 5px solid $blanco-fuerte !important
-					width: 10rem
-					margin-top: 0.3rem
-	.card
-		height: 100% !important
-body 
-	.wrap-960 
-		.bia-movement 
-			h2
-				font-size: $tam-bread-principal
-
-/* CALL CONTACT
-
-body
-	.call-contact
-		border-radius: 0rem
-		.wrap-call-contact
-			width: 100%
-			max-width: 1200px
-			margin: 0rem auto
-			padding-top: 3rem
-			padding-bottom: 2rem
-			.call-contact-name
-				h2
-					color: $blanco-fuerte
-					font-size: $tam-bread-principal
-					text-align: center
-					vertical-align: middle
-	.call-contact-btn
-		p
-			text-align: center
-		a, input
-			font-size: 1.5rem !important
+		.error-actions
+		a
+			font-size: 1rem !important
 			color: $blanco-fuerte !important
-			border-radius: 50px !important
-			background-color: $verde-fosfo !important
-			border-color: $verde-fosfo !important
-			font-weight: 700
+			border-radius: .5rem !important
+			background-color: $morado-1 !important
+			border-color: $morado-1 !important
+			font-weight: 300
 			background-size: cover
 			box-shadow: 12px 15px 20px rgba(0,0,0,.1)
 			transition: 300ms all ease
-			padding-top: 0.6rem !important
 			&:hover
 				box-shadow: 2px 4px 8px 0 rgba(0,0,0,.1)
-				background-color: $verde-obscurito !important
-				border-color: $verde-obscurito !important
-	.wpcf7-submit
-		width: 50%
-		margin: 0 auto
-		font-size: 1.5rem !important
-		color: $blanco-fuerte !important
-		border-radius: 50px !important
-		background-color: $verde-fosfo !important
-		border-color: $verde-fosfo !important
-		font-weight: 700
-		background-size: cover
-		box-shadow: 12px 15px 20px rgba(0,0,0,.1)
-		transition: 300ms all ease
-		padding-bottom: 2.5rem
-		cursor: pointer
-		&:hover
-			box-shadow: 2px 4px 8px 0 rgba(0,0,0,.1)
-			background-color: $verde-obscurito !important
-			border-color: $verde-obscurito !important
-	.wpcf7-textarea
-		height: 5rem
+				background-color: $blanco-fuerte !important
+				border-color: $blanco-fuerte !important
+				color: $rojo !important
 
-/* PRODSERV 
+/* Breadcrumb */
 body
-	.porserv-info
-		margin: 5rem auto
-	.porserv-info-2
-		margin: 0rem
-	.porserv-info, .porserv-info-2
-		h2, h6
+	.breadcrumb
+		h1
 			text-align: center
-		img, ol
-			margin: 0rem auto
-			margin-top: 0.5rem
-			margin-bottom: 0.5rem
-		.carousel-caption
-			color: $negro-mate
-		.card-text
+			font-size: $tam-principal-grande
+			font-family: $font-indie !important
+			color: $blanco-fuerte !important
+
+/* services */
+body
+	.title-custom
+		h2
 			text-align: center
-		.beau-text
-			text-align: center
-			font-size: 1.6rem
-			font-weight: 200
-	.wrap-1200-white
-		background-color: $blanco-fuerte
-		padding-top: 5rem
-		padding-bottom: 2.5rem
-		.inner-wrap-960
+			font-family: $font-indie !important
+			font-size: $tam-principal-grande
+			color: $morado-1
+		margin-bottom: 5rem
+	.left-info-serv
+		p
+			text-align: justify
+	.right-info-serv
+		position: relative
+		ul
+			position: absolute
+			top: 25%
+			left: 20%
+			li
+				font-family: $font-indie
+	.img-serv
+		margin: 3rem 0rem
+		img
 			width: 100%
-			max-width: 960px
-			margin: 0rem auto
-	.sub-title
-		text-align: center
-	.carousel-item
+			box-shadow: 5px 5px 10px rgba(0,0,0,.5)
+	.btn-serv
+		margin-bottom: 3rem
 		p
 			text-align: center
-
-/* CALL SUBS 
-body
-	.wrap-call-contact
-		h4
-			color: $blanco-fuerte
-			font-weight: 700
-		h4,h2
-			text-align: center
-
-/* SLIDER 
-body
-	.bg-slider
-		padding: 2.5rem 0rem
-		background-size: cover
-		height: 100%
-		background-position: center
-	.wrap-slider
-		width: 100%
-		.containerS
-			width: 100%
-			margin: 5rem 0rem
-			.item
-				margin: auto
-				vertical-align: middle
-				width: 80%
-				p
-					color: $blanco-fuerte
-					margin: 0rem
-					text-shadow: 1px 1px 1px #000
-				.first-call
-					font-size: 3rem
-					font-weight: 700
-				.second-call
-					span
-						font-weight: 200
-					b
-						color: $azul-fosfo
-						font-size: 2.5rem
-				.third-call
-					text-shadow: none
-					text-align: right
-					margin-top: 2.5rem
-					a
-						color: $negro-mate !important
-						&:hover
-							color: $blanco-fuerte !important
-				.left-call
-					text-align: left
-				.right-call
-					text-align: right
-				.center-call
-					text-align: center
-	.dot
-		background-color: $verde-fosfo
-	.pagination-slider
-		.active
-			background-color: $azul-fosfo
-
-/* INDEX 
-body
-	.wrap-post
-		margin: 5rem auto
-		max-width: 960px
-		.error-msg
-			text-align: center
-			font-size: $tam-bread-principal
-		.wrap-single-post
-			padding: 1rem
-			margin: 1rem 0rem
-			.category-post
-				ul
-					padding: 0
-					margin: 0
-					list-style-type: none
-					clear: both
-					overflow: hidden
-					li
-						float: left
-						margin: 0.3rem 0rem
-						a
-							padding: 0.25rem
-							margin: 0.25rem
-							color: $negro-mate !important
-							border-radius: 0
-							background-color: $verde-fosfo !important
-							border-color: $verde-fosfo !important
-							font-weight: 200
-							transition: 300ms all ease
-							font-size: tam-parrafo-normal
-							text-decoration: none
-							&:hover
-								background-color: $azul-mate !important
-								border-color: $azul-mate !important
-								color: $blanco-fuerte !important
-			.title-post
-				h2
-					text-align: center
-					padding: 1rem 0rem
-					a
-						color: $negro-mate
-						transition: 300ms all ease
-						text-decoration: none
-						&:hover
-							opacity: 0.5
-			.content-post
-				.img-post
-					p
-						text-align: center !important
-						img
-							width: 100%
-				.desc-post
-					p
-						text-align: justify
-				.img-name
-					h3
-						text-align: center
-						font-size: $tam-parrafo-normal
-						font-weight: 200
-				.author-post
-					p
-						padding-top: 1rem
-						font-size: $tam-footer-secundario
-						font-weight: 200
-				.call-contact-btn 
-					a
-						font-size: $tam-parrafo-normal !important
-			.tags-post
-				ul
-					padding: 0
-					margin: 0
-					list-style-type: none
-					clear: both
-					overflow: hidden
-					li
-						float: left
-						a
-							padding: 0.25rem
-							margin: 0.25rem
-							color: $negro-mate !important
-							border-color: $azul-mate !important
-							font-weight: 200
-							transition: 300ms all ease
-							font-size: tam-parrafo-normal
-							text-decoration: none
-	.pagination-posts
-		.links-pagination
-			.nav-links
-				margin: 0 auto
-			h2, .prev, .next
-				display: none
-		.prev-pagination
-			p
-				text-align: left
-		.next-pagination
-			p
-				text-align: right
-		a
-			text-shadow: 1px 1px 1px rgba(0,0,0,0.3)
-			color: $negro-mate !important
-			transition: 300ms all ease
-			&:hover
-				opacity: 0.5
-
-/* PAGE & POST 
-
-body
-	.wrap-page-content, .wrap-post-content
-		margin: 5rem auto
-		padding: 1rem
-		width: 100%
-		max-width: 1200px
-
-/* MISCELLANEOUS 
-
-body
-	.loader
-		img
-			width: 10%
-	.wpcf7-response-output
-		display: none
-
-
-/* RESPONSIVO 
-
-@media screen and (max-width: 768px)
-	body
-		header
-			.navigation
-				display: none
-		.mobile-navigation
-			display: inline-block
-			width: 100%
-	html
-		font-size: 12px
-	.img-whyus
-		padding: 1rem 0rem !important
-		img
-			max-width: 20rem
-		p
-			text-align: center
-	.info-about
-		margin: 2.5rem 0rem !important
-	.carousel-item
-		img
-			width: 100%
-	footer
-		.copy
-			.author
-				font-size: $tam-footer-principal !important
-		.rrss
-			ul
-				padding-bottom: 1rem
-				li
-					a
-						img
-							max-width: 1.5rem !important
-	.loader
-		img
-			width: 35% !important
-	.submenu
-		display: none
+			a
+				font-size: $tam-secundario !important
