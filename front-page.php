@@ -79,7 +79,7 @@
 				<b class="is-hidden">Motivación</b>
 				<b class="is-hidden">Sostenibilidad</b>
 			</span>
-		</h1>
+			</h1>
 		</div>
 
 	</div>

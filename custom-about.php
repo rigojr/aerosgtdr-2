@@ -1,82 +1,88 @@
+<?php /* Template Name: about-custom*/ ?>
+
 <?php get_header(); ?>
 
-<?php get_template_part( 'breadcrumb-normal' ); ?>
+<?php get_template_part( 'breadcrumb' ); ?>
 
-<div class="wrap-post">
-	
-	<?php if ( have_posts() ) : ?>
-	
-	<section class="container">
-		<?php while ( have_posts() ) : the_post(); ?>
-		<div class="row card wrap-single-post">
-			<div class="cardbody">
-				<div class="category-post">
-					<?php echo get_the_category_list(); ?>
-				</div>
-				<div class="title-post">
-					<h2>
-						<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-					</h2>
-				</div>
-				<div class="content-post row">
-					<div class="img-post col-sm-6">
+<div class="wrap row about">
+		<div class="col-sm-6 img-about">
+			<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/about.jpg" alt="Sobre GTDR"></p>
+		</div>
+		<div class="col-sm-6">
+			<div class="card">
+				<div class="card-body">
+					<h2 class="title-about">Gruptech Dominican Republic</h2>
+					<div class="card-text">
+						<p>Gruptech Cloud Dominican Republic es una empresa fundada octubre del año 2017 que se encarga de elaborar y fabricar jugos de alto valor nutricional a base de frutas.</p>
+						<p>Nuestra misión es promover el consumo combinado de frutas y vegetales, aportando beneficios para la salud. Respetar el medio ambiente y elaborar productos de alta calidad, brindando  confianza a los consumidores.</p>
 						<p>
-							<a href="<?php the_permalink(); ?>">
-								<?php if (has_post_thumbnail()){ the_post_thumbnail('list_articles_thumbs');} ?>
-							</a>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.
 						</p>
 					</div>
-					<div class="desc-post col-sm-6">
-						<?php the_excerpt(); ?>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+				<div class="card-body">
+					<div class="card-text">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					</div>
 				</div>
-				<div class="content-post row">
-					<div class="img-name col-sm-6">
-						<h3>
-							<i><?php echo get_the_post_thumbnail_caption() ?></i>
-						</h3>
-					</div>
-					<div class="author-post col-sm-3">
-						<p><time><i><?php the_time('j F, Y'); ?></i></time> by <b><?php the_author_posts_link() ?></b></p>
-					</div>
-					<div class="btn-read col-sm-3">
-						<p class="call-contact-btn"><a class="btn btn-success" href="<?php the_permalink(); ?>">READ MORE</a></p>
-					</div>
-				</div>
-				<div class="tags-post">
-            		<?php the_tags('<ul><li>','</li><li>','</li></ul>'); ?>            
-				</div>
-			</div>				
-		
-		</div>
-		
-		<?php endwhile; ?>
-	
-	<div class="pagination-posts row">
-		<div class="col-sm-4 prev-pagination">
-			<p>
-				<?php previous_posts_link('< Back'); ?>
-			</p>
-		</div>
-		<div class="col-sm-4 links-pagination">
-				<?php echo get_the_posts_pagination( array( 'mid_size' => 10,)	); ?>
-		</div>
-		<div class="col-sm-4 next-pagination">
-			<p>
-				<?php next_posts_link('Onward >'); ?>
-			</p>
-		</div>
-	</div>
-	<?php else : ?>
-	<h2 class="error-msg">I'm sorry, there arn't News or Events load.</h2>
-	<?php endif; ?>
-
-	</section>
-
-	
-
+			</div>
+</div>
+<div class="natural">
+	<h1 class="cd-headline push">
+	<span class="cd-words-wrapper">
+		<b class="is-visible">Trabajo en Equipo</b>
+		<b class="is-hidden">Compromiso</b>
+		<b class="is-hidden">Responsabilidad</b>
+		<b class="is-hidden">Respeto</b>
+		<b class="is-hidden">Honestidad</b>
+		<b class="is-hidden">Inclusión</b>
+		<b class="is-hidden">Pasión</b>
+		<b class="is-hidden">Motivación</b>
+		<b class="is-hidden">Sostenibilidad</b>
+	</span>
+	</h1>
 </div>
 
-<?php get_template_part( 'call-subs' ); ?>
+<?php get_template_part( 'subs-form' ); ?>
+
+<div class="wrap row about">
+		<div class="col-sm-12 overflow">
+			<h2 class="title-about" style="text-align: center;">
+				Soluciones para la Industria Dominicana
+			</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+			<img class="col-sm-4 industry" src="<?php echo get_template_directory_uri(); ?>/assets/img/industria-3.jpg">
+			<img class="col-sm-4 industry" src="<?php echo get_template_directory_uri(); ?>/assets/img/industria-2.jpg">
+			<img class="col-sm-4 industry" src="<?php echo get_template_directory_uri(); ?>/assets/img/industria-1.jpg">
+		</div>
+</div>
 
 <?php get_footer(); ?>
