@@ -1,35 +1,55 @@
-var elementsF = $('.modal-overlayF, .modalF');
-var elementsS = $('.modal-overlayS, .modalS');
-
-$('#myBtnF').click(function(){
-    elementsF.addClass('active');
+$('#al').click(function(){
+    $('#al div').addClass('active');
+    $('#de div').removeClass('active');
+    $('#an div').removeClass('active');
+    $('#nu div').removeClass('active');
+    $('#j1').addClass('isVisible');
+    $('#j2').removeClass('isVisible');
+    $('#j3').removeClass('isVisible');
+    $('#j4').removeClass('isVisible');
+    $('#j2').addClass('notVisible');
+    $('#j3').addClass('notVisible');
+    $('#j4').addClass('notVisible');
 });
 
-$('.close-modalF').click(function(){
-    elementsF.removeClass('active');
+$('#de').click(function(){
+    $('#de div').addClass('active');
+    $('#al div').removeClass('active');
+    $('#an div').removeClass('active');
+    $('#nu div').removeClass('active');
+    $('#j2').addClass('isVisible');
+    $('#j1').removeClass('isVisible');
+    $('#j3').removeClass('isVisible');
+    $('#j1').addClass('notVisible');
+    $('#j3').addClass('notVisible');
+    $('#j4').removeClass('isVisible');
+	$('#j4').addClass('notVisible');
 });
 
-$('#myBtnS').click(function(){
-    elementsS.addClass('active');
+$('#an').click(function(){
+    $('#an div').addClass('active');
+    $('#de div').removeClass('active');
+    $('#al div').removeClass('active');
+    $('#nu div').removeClass('active');
+    $('#j3').addClass('isVisible');
+    $('#j2').removeClass('isVisible');
+    $('#j1').removeClass('isVisible');
+    $('#j2').addClass('notVisible');
+    $('#j1').addClass('notVisible');
+    $('#j4').removeClass('isVisible');
+	$('#j4').addClass('notVisible');
 });
 
-$('.close-modalS').click(function(){
-    elementsS.removeClass('active');
+$('#nu').click(function(){
+    $('#nu div').addClass('active');
+    $('#de div').removeClass('active');
+    $('#an div').removeClass('active');
+    $('#al div').removeClass('active');
+    $('#j4').addClass('isVisible');
+    $('#j2').removeClass('isVisible');
+    $('#j3').removeClass('isVisible');
+    $('#j2').addClass('notVisible');
+    $('#j3').addClass('notVisible');
+    $('#j1').removeClass('isVisible');
+	$('#j1').addClass('notVisible');
 });
-
-$('#movS').click(function(){
-    elementsS.addClass('active');
-});
-
-$('#movF').click(function(){
-    elementsF.addClass('active');
-});
-
-$('.openF').click(function(){
-    elementsF.addClass('active');
-});
-
-$('.openS').click(function(){
-    elementsS.addClass('active');
-});
-

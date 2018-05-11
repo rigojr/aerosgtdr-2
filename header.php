@@ -57,10 +57,10 @@
 					<nav class="col-sm-5">
 						<ul class="nav justify-content-center">
 							<li class="nav-item">
-								<a class="nav-link" href="#">SABORES</a>
+								<a class="nav-link" href="<?php echo esc_url( home_url( '/' ) ); ?>/sabores">SABORES</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">NOSOTROS</a>
+								<a class="nav-link" href="<?php echo esc_url( home_url( '/' ) ); ?>/nosotros">NOSOTROS</a>
 							</li>
 						</ul>
 					</nav>

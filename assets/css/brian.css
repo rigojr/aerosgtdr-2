@@ -23,6 +23,82 @@
   box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.3);
   margin: 3rem 0; }
 
+.center {
+  margin: auto !important;
+  text-align: center; }
+  .center .btn.btn-success {
+    width: 10rem;
+    margin-bottom: 2rem; }
+
+/*SABORES */
+.wrap {
+  padding-left: 6rem; }
+
+.flavor {
+  background-color: #482E78 !important;
+  border-radius: 0.5rem !important;
+  box-shadow: 12px 15px 20px rgba(0, 0, 0, 0.1);
+  max-height: 22.35rem;
+  margin-right: 6rem; }
+  .flavor .flavor-title {
+    color: #EDEEF6;
+    text-align: center;
+    font-weight: 300; }
+  .flavor p.flavor-title {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem; }
+  .flavor h2.flavor-title {
+    padding-top: 1rem; }
+  .flavor hr {
+    text-align: center;
+    border-width: 2px;
+    border-radius: 0.5rem !important;
+    width: 11.5rem;
+    height: 2px;
+    margin: 0 auto;
+    margin-bottom: 2rem; }
+  .flavor a {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer; }
+    .flavor a:hover .list-flavor {
+      color: #000000;
+      background-color: #FFFFFF;
+      border-radius: 0.5rem !important; }
+    .flavor a .list-flavor {
+      text-decoration: none;
+      text-align: center;
+      font-family: "Indie Flower", cursive !important;
+      font-size: 1.8rem;
+      color: #EDEEF6; }
+    .flavor a .list-flavor.active {
+      color: #000000;
+      background-color: #FFFFFF;
+      border-radius: 0.5rem !important; }
+
+.juices .notVisible {
+  display: none; }
+.juices .isVisible {
+  display: block;
+  margin-left: 5rem; }
+  .juices .isVisible img {
+    margin-left: 5rem;
+    width: 20rem; }
+  .juices .isVisible p {
+    padding-top: 1rem;
+    text-align: justify; }
+
+.bottom-flavor {
+  margin-top: 2rem; }
+  .bottom-flavor .col-sm-6 {
+    padding: 0 0; }
+    .bottom-flavor .col-sm-6 p {
+      text-align: justify; }
+    .bottom-flavor .col-sm-6 img {
+      width: 20rem;
+      margin-left: 7rem; }
+
 /*CLIP */
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
