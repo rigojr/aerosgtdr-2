@@ -42,7 +42,7 @@
 					<nav class="col-sm-5">
 						<ul class="nav justify-content-end">
 							<li class="nav-item">
-								<a class="nav-link" href="#">CONTACTO</a>
+								<a id="contact" class="nav-link" href="#">CONTACTO</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="<?php echo esc_url( home_url( '/' ) ); ?>/servicios">SERVICIOS</a>
