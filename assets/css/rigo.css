@@ -29,6 +29,12 @@
   max-width: 1200px;
   margin: 0 auto; }
 
+a:hover {
+  text-decoration: none; }
+
+html, body {
+  font-size: 14px; }
+
 /* HEADER */
 body .first-view {
   background-size: cover;
@@ -37,15 +43,24 @@ body .first-view {
     padding-top: 0.5rem; }
     body .first-view header .supra-header .rrss li {
       margin: 0rem 0.5rem; }
+      body .first-view header .supra-header .rrss li a {
+        transition: 300ms all ease; }
+        body .first-view header .supra-header .rrss li a:hover {
+          opacity: 0.7; }
   body .first-view header .supra-header .supra-info li {
     padding: 0rem 1rem;
     padding-top: 0.5rem;
-    background-color: #482E78; }
+    background-color: #482E78;
+    transition: 300ms all ease; }
+    body .first-view header .supra-header .supra-info li:hover {
+      background-color: #CC340B; }
     body .first-view header .supra-header .supra-info li img {
-      max-width: 1rem; }
+      max-width: 1rem;
+      margin-right: 0.3rem; }
     body .first-view header .supra-header .supra-info li p {
       color: #FFFFFF;
-      margin-bottom: 0.5rem; }
+      margin-bottom: 0.5rem;
+      font-weight: 300; }
     body .first-view header .supra-header .supra-info li a {
       color: #FFFFFF; }
     body .first-view header .supra-header .supra-info li:first-child {
@@ -63,7 +78,11 @@ body .first-view {
       body .first-view header nav ul li a {
         font-size: 1.5rem;
         color: #FFFFFF;
-        font-weight: 300; }
+        font-weight: 300;
+        border-bottom: 0.2rem solid rgba(255, 255, 255, 0) !important;
+        transition: 300ms all ease; }
+        body .first-view header nav ul li a:hover {
+          border-bottom: 0.2rem solid #CC340B !important; }
 
 /* FIRST-VIEW */
 body .first-view-info {

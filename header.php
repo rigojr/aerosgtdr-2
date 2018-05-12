@@ -27,7 +27,7 @@
 						<div class="supra-info">
 							<ul class="nav justify-content-end">
 								<li class="nav-item">
-									<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/phone-logo.png" alt="call us">(829) 410-0286</p>
+									<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/phone-logo.png" alt="call us"><a href="tel:1-829-410-0286">(829) 410-0286</a></p>
 								</li>
 								<li>
 									<a href="#">English</a>
@@ -40,7 +40,7 @@
 			<div class="container infra-header">
 				<div class="row">
 					<nav class="col-sm-5">
-						<ul class="nav justify-content-center">
+						<ul class="nav justify-content-end">
 							<li class="nav-item">
 								<a class="nav-link" href="#">CONTACTO</a>
 							</li>
@@ -55,7 +55,7 @@
 						</a></p>
 					</div>
 					<nav class="col-sm-5">
-						<ul class="nav justify-content-center">
+						<ul class="nav">
 							<li class="nav-item">
 								<a class="nav-link" href="<?php echo esc_url( home_url( '/' ) ); ?>/sabores">SABORES</a>
 							</li>
