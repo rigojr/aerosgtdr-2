@@ -1,3 +1,13 @@
+var elements = $('.modal-overlayF, .modalF');
+
+$('#contact').click(function(){
+    elements.addClass('active');
+});
+
+$('.close-modalF').click(function(){
+    elements.removeClass('active');
+});
+
 $('#al').click(function(){
     $('#al div').addClass('active');
     $('#de div').removeClass('active');
