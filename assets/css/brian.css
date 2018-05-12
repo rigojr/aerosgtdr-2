@@ -17,6 +17,8 @@
   text-align: justify;
   font-weight: 300;
   margin: 0 0; }
+.overflow img {
+  width: 20rem; }
 
 .industry {
   width: 24rem;
