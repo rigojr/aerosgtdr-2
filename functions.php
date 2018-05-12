@@ -33,8 +33,8 @@ function genesis_widgets() {
 	) );
 
 	register_sidebar( array(
-		'name'          => 'Form Contact Inline',
-		'id'            => 'form-inline-contact',
+		'name'          => 'Contact Form',
+		'id'            => 'form-contact',
 		'description'   => 'No desc',
 		'before_widget' => '',
 		'after_widget'  => '',
