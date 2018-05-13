@@ -9,20 +9,7 @@
 	6 - 404
 	7 - Breadcrumb
 	8 - services
-
-	2 - FOOTER
-	3 - BREADCRUMB
-	4 - ABOUT
-	5 - CALL CONTACT
-	6 - PRODSERV
-	7 - CALL SUBS
-	8 - SLIDER
-	9 - INDEX
-	10 - PAGE & POST
-	11 - RESPONSIVO
-	12 - MISCELLANEOUS
-	*/
-
+	9 - NOSOTROS
 /* VARIABLES */
 
 /* COLORES */
@@ -50,13 +37,14 @@ $tam-secundario-normal: 1rem
 $tam-principal-grande: 3rem
 $tam-principal: 2rem
 $font-indie: 'Indie Flower', cursive
+$tam-parrafo-normal: 1.1rem
 
 $tam-menu: 1rem
 $tam-footer-principal: 1rem
 $tam-footer-secundario: 0.85rem
 $tam-bread-principal: 2.5rem
 $tam-bread-secundario: 1.3rem
-$tam-parrafo-normal: 1rem
+
 
 .wrap	
 	width: 100%
@@ -156,16 +144,16 @@ body
 			font-size: 1rem !important
 			color: $blanco-fuerte !important
 			border-radius: .5rem !important
-			background-color: $morado-1 !important
-			border-color: $morado-1 !important
+			background-color: $rojo !important
+			border-color: $rojo !important
 			font-weight: 300
 			background-size: cover
 			box-shadow: 12px 15px 20px rgba(0,0,0,.1)
 			transition: 300ms all ease
 			&:hover
 				box-shadow: 2px 4px 8px 0 rgba(0,0,0,.1)
-				background-color: $rojo !important
-				border-color: $rojo !important
+				background-color: $morado-1 !important
+				border-color: $morado-1 !important
 	.natural
 		margin-top: 3rem
 		h2,h1
@@ -208,19 +196,29 @@ body
 /* Subscription Form */
 body
 	.call-subs
-		padding: 1.5rem 0rem
+		margin-top: 3rem
+		padding-top: 2rem
 		background-color: $rojo
 		.call-subs-title
 			color: $blanco-fuerte
+			margin: 1.5rem 0rem
 			h2
-				text-align: center
+				text-align: left
 				font-family: $font-indie !important
+				font-size: $tam-principal-grande
+			p
+				font-size: $tam-secundario
+			h2,p
+				margin-top: 0.5rem
 		.call-subs-form
+			margin: 1.5rem 0rem
+			p
+				text-align: center
 			br
 				display: none
 			input
-				width: 35% !important
-				margin: 0 .35rem
+				width: 100% !important
+				margin: .5rem 0rem
 			.wpcf7-submit
 				border: none
 				font-size: 1rem !important
@@ -240,6 +238,8 @@ body
 					color: $morado-1 !important
 			.wpcf7-submit
 				width: 20% !important
+			.wpcf7-response-output, span.wpcf7-not-valid-tip
+				color: $blanco-fuerte
 
 /* FOOTER */
 body
@@ -277,6 +277,9 @@ body
 				padding: 0rem .5rem
 				img
 					max-width: 32px !important
+					transition: 300ms all ease
+					&:hover
+						opacity: .70
 		.navigation
 			margin-top: 3rem
 			ul
@@ -284,13 +287,18 @@ body
 				padding: 0
 				margin: 0
 				li
+					transition: 300ms all ease
+					&:hover
+						background-color: $rojo
 					a
 						color: $blanco-fuerte
+					
 
 /* 404 */
 body
 	.breadcrumb
-		margin: 5rem 0rem
+		margin: 2rem 0rem
+		margin-bottom: 3rem
 		.error-template
 			h1
 				color: $blanco-fuerte
@@ -320,25 +328,31 @@ body
 			font-size: $tam-principal-grande
 			font-family: $font-indie !important
 			color: $blanco-fuerte !important
+			margin: 0
 
 /* services */
 body
 	.title-custom
 		h2
 			text-align: center
-			font-family: $font-indie !important
+			font-weight: 300
 			font-size: $tam-principal-grande
-			color: $morado-1
-		margin-bottom: 5rem
+			color: $blanco-fuerte
 	.left-info-serv
 		p
 			text-align: justify
 	.right-info-serv
 		position: relative
 		ul
+			padding: 3rem
 			position: absolute
-			top: 25%
-			left: 20%
+			top: 20%
+			left: 10%
+			background-color: $morado-1
+			color: $blanco-fuerte
+			transition: 300ms all ease
+			&:hover
+				background-color: rgba(204, 52, 11, 0.75)
 			li
 				font-family: $font-indie
 	.img-serv
@@ -347,8 +361,26 @@ body
 			width: 100%
 			box-shadow: 5px 5px 10px rgba(0,0,0,.5)
 	.btn-serv
-		margin-bottom: 3rem
+		margin: 3rem 0rem
+		width: 100%
 		p
 			text-align: center
 			a
-				font-size: $tam-secundario !important
+				font-size: $tam-nav !important
+
+/* NOSOTROS */
+body
+	p
+		font-size: $tam-parrafo-normal
+		b
+			font-weight: 700
+	.about
+		.first-cardbody
+			margin-bottom: 1rem
+		.second-cardbody
+			margin-top: 1rem
+			background-color: $morado-1
+			color: $blanco-fuerte
+			transition: 300ms all ease
+			p
+				text-align: center

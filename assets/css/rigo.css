@@ -8,19 +8,7 @@
  * 6 - 404
  * 7 - Breadcrumb
  * 8 - services
- *
- * 2 - FOOTER
- * 3 - BREADCRUMB
- * 4 - ABOUT
- * 5 - CALL CONTACT
- * 6 - PRODSERV
- * 7 - CALL SUBS
- * 8 - SLIDER
- * 9 - INDEX
- * 10 - PAGE & POST
- * 11 - RESPONSIVO
- * 12 - MISCELLANEOUS
- */
+ * 9 - NOSOTROS */
 /* VARIABLES */
 /* COLORES */
 /* TIPOGRAFIA */
@@ -112,16 +100,16 @@ body .normal-btn a, body .error-actions a {
   font-size: 1rem !important;
   color: #FFFFFF !important;
   border-radius: 0.5rem !important;
-  background-color: #482E78 !important;
-  border-color: #482E78 !important;
+  background-color: #CC340B !important;
+  border-color: #CC340B !important;
   font-weight: 300;
   background-size: cover;
   box-shadow: 12px 15px 20px rgba(0, 0, 0, 0.1);
   transition: 300ms all ease; }
   body .normal-btn a:hover, body .error-actions a:hover {
     box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.1);
-    background-color: #CC340B !important;
-    border-color: #CC340B !important; }
+    background-color: #482E78 !important;
+    border-color: #482E78 !important; }
 body .natural {
   margin-top: 3rem; }
   body .natural h2, body .natural h1 {
@@ -160,37 +148,50 @@ body .clip {
 
 /* Subscription Form */
 body .call-subs {
-  padding: 1.5rem 0rem;
+  margin-top: 3rem;
+  padding-top: 2rem;
   background-color: #CC340B; }
   body .call-subs .call-subs-title {
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    margin: 1.5rem 0rem; }
     body .call-subs .call-subs-title h2 {
-      text-align: center;
-      font-family: "Indie Flower", cursive !important; }
-  body .call-subs .call-subs-form br {
-    display: none; }
-  body .call-subs .call-subs-form input {
-    width: 35% !important;
-    margin: 0 0.35rem; }
-  body .call-subs .call-subs-form .wpcf7-submit {
-    border: none;
-    font-size: 1rem !important;
-    color: #FFFFFF !important;
-    border-radius: 0.5rem !important;
-    background-color: #482E78 !important;
-    border-color: #482E78 !important;
-    font-weight: 300;
-    background-size: cover;
-    box-shadow: 12px 15px 20px rgba(0, 0, 0, 0.1);
-    transition: 300ms all ease;
-    padding: 0.3rem 0rem; }
-    body .call-subs .call-subs-form .wpcf7-submit:hover {
-      box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.1);
-      background-color: #FFFFFF !important;
-      border-color: #FFFFFF !important;
-      color: #482E78 !important; }
-  body .call-subs .call-subs-form .wpcf7-submit {
-    width: 20% !important; }
+      text-align: left;
+      font-family: "Indie Flower", cursive !important;
+      font-size: 3rem; }
+    body .call-subs .call-subs-title p {
+      font-size: 1.2rem; }
+    body .call-subs .call-subs-title h2, body .call-subs .call-subs-title p {
+      margin-top: 0.5rem; }
+  body .call-subs .call-subs-form {
+    margin: 1.5rem 0rem; }
+    body .call-subs .call-subs-form p {
+      text-align: center; }
+    body .call-subs .call-subs-form br {
+      display: none; }
+    body .call-subs .call-subs-form input {
+      width: 100% !important;
+      margin: 0.5rem 0rem; }
+    body .call-subs .call-subs-form .wpcf7-submit {
+      border: none;
+      font-size: 1rem !important;
+      color: #FFFFFF !important;
+      border-radius: 0.5rem !important;
+      background-color: #482E78 !important;
+      border-color: #482E78 !important;
+      font-weight: 300;
+      background-size: cover;
+      box-shadow: 12px 15px 20px rgba(0, 0, 0, 0.1);
+      transition: 300ms all ease;
+      padding: 0.3rem 0rem; }
+      body .call-subs .call-subs-form .wpcf7-submit:hover {
+        box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.1);
+        background-color: #FFFFFF !important;
+        border-color: #FFFFFF !important;
+        color: #482E78 !important; }
+    body .call-subs .call-subs-form .wpcf7-submit {
+      width: 20% !important; }
+    body .call-subs .call-subs-form .wpcf7-response-output, body .call-subs .call-subs-form span.wpcf7-not-valid-tip {
+      color: #FFFFFF; }
 
 /* FOOTER */
 body footer {
@@ -224,19 +225,27 @@ body footer {
     body footer .rrss li {
       padding: 0rem 0.5rem; }
       body footer .rrss li img {
-        max-width: 32px !important; }
+        max-width: 32px !important;
+        transition: 300ms all ease; }
+        body footer .rrss li img:hover {
+          opacity: 0.7; }
   body footer .navigation {
     margin-top: 3rem; }
     body footer .navigation ul {
       list-style: none;
       padding: 0;
       margin: 0; }
-      body footer .navigation ul li a {
-        color: #FFFFFF; }
+      body footer .navigation ul li {
+        transition: 300ms all ease; }
+        body footer .navigation ul li:hover {
+          background-color: #CC340B; }
+        body footer .navigation ul li a {
+          color: #FFFFFF; }
 
 /* 404 */
 body .breadcrumb {
-  margin: 5rem 0rem; }
+  margin: 2rem 0rem;
+  margin-bottom: 3rem; }
   body .breadcrumb .error-template h1 {
     color: #FFFFFF;
     font-size: 3rem;
@@ -262,24 +271,29 @@ body .breadcrumb h1 {
   text-align: center;
   font-size: 3rem;
   font-family: "Indie Flower", cursive !important;
-  color: #FFFFFF !important; }
+  color: #FFFFFF !important;
+  margin: 0; }
 
 /* services */
-body .title-custom {
-  margin-bottom: 5rem; }
-  body .title-custom h2 {
-    text-align: center;
-    font-family: "Indie Flower", cursive !important;
-    font-size: 3rem;
-    color: #482E78; }
+body .title-custom h2 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 3rem;
+  color: #FFFFFF; }
 body .left-info-serv p {
   text-align: justify; }
 body .right-info-serv {
   position: relative; }
   body .right-info-serv ul {
+    padding: 3rem;
     position: absolute;
-    top: 25%;
-    left: 20%; }
+    top: 20%;
+    left: 10%;
+    background-color: #482E78;
+    color: #FFFFFF;
+    transition: 300ms all ease; }
+    body .right-info-serv ul:hover {
+      background-color: rgba(204, 52, 11, 0.75); }
     body .right-info-serv ul li {
       font-family: "Indie Flower", cursive; }
 body .img-serv {
@@ -288,10 +302,26 @@ body .img-serv {
     width: 100%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); }
 body .btn-serv {
-  margin-bottom: 3rem; }
+  margin: 3rem 0rem;
+  width: 100%; }
   body .btn-serv p {
     text-align: center; }
     body .btn-serv p a {
-      font-size: 1.2rem !important; }
+      font-size: 1.5rem !important; }
+
+/* NOSOTROS */
+body p {
+  font-size: 1.1rem; }
+  body p b {
+    font-weight: 700; }
+body .about .first-cardbody {
+  margin-bottom: 1rem; }
+body .about .second-cardbody {
+  margin-top: 1rem;
+  background-color: #482E78;
+  color: #FFFFFF;
+  transition: 300ms all ease; }
+  body .about .second-cardbody p {
+    text-align: center; }
 
 /*# sourceMappingURL=rigo.css.map */
