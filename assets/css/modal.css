@@ -75,7 +75,6 @@
 }
 .modalS .close-modalS svg, .modalF .close-modalF svg {
   width: 1.75em;
-  height: 1.75em;
 }
 .modalS .modal-content, .modalF .modal-content {
   opacity: 0;

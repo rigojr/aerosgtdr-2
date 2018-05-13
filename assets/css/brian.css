@@ -102,13 +102,17 @@
       margin-left: 7rem; }
 
 /*FORM */
+.contact {
+  margin-bottom: 2rem;
+  margin-top: 0.75rem; }
+
 .form-control, .wpcf7-text, .wpcf7-number, .wpcf7-select, .wpcf7-textarea, .wpcf7-submit {
   display: block;
   width: 100%;
   height: 34px;
   padding: 6px 12px;
   font-size: 14px;
-  line-height: 1.42857;
+  line-height: 1.42857143;
   color: #555;
   background-color: #fff;
   background-image: none;
@@ -127,17 +131,18 @@
   border: 1px solid #555 !important; }
 
 .wpcf7-textarea {
-  height: 5rem; }
+  height: 5rem;
+  resize: none; }
 
 .wpcf7-submit {
-  width: 50%;
+  width: 10rem;
   margin: 0 auto;
   font-size: 1.5rem !important;
   color: #FFFFFF !important;
   border-radius: 50px !important;
-  background-color: #0DFF72 !important;
-  border-color: #0DFF72 !important;
-  font-weight: 700;
+  background-color: #482E78 !important;
+  border-color: #482E78 !important;
+  font-weight: 500;
   background-size: cover;
   box-shadow: 12px 15px 20px rgba(0, 0, 0, 0.1);
   transition: 300ms all ease;
@@ -145,8 +150,8 @@
   cursor: pointer; }
   .wpcf7-submit:hover {
     box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.1);
-    background-color: #28A745 !important;
-    border-color: #28A745 !important; }
+    background-color: #CC340B !important;
+    border-color: #CC340B !important; }
 
 /*CLIP */
 *, *::after, *::before {
