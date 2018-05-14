@@ -65,14 +65,10 @@ $tam-parrafo-normal: 1rem
 		margin-bottom: 2rem
 
 /*SABORES*/
-.wrap
-	padding-left: 6rem
 .flavor
 	background-color: $morado-1 !important
 	border-radius: .5rem !important
 	box-shadow: 12px 15px 20px rgba(0,0,0,.1)
-	max-height: 22.35rem
-	margin-right: 6rem
 	.flavor-title
 		color: $blanco-suave
 		text-align: center
@@ -106,31 +102,31 @@ $tam-parrafo-normal: 1rem
 			font-family: $font-indie !important
 			font-size: 1.8rem
 			color: $blanco-suave
-		.list-flavor.active
+		.list-flavor.activeF
 			color: $negro-fuerte
 			background-color: $blanco-fuerte
 			border-radius: .5rem !important
-.juices
-	.notVisible
-		display: none
-	.isVisible
-		display: block
-		margin-left: 5rem
-		img
-			margin-left: 5rem
-			width: 20rem
-		p
-			padding-top: 1rem
-			text-align: justify
-.bottom-flavor
+
+.text-w-img
+	text-align: center
+
+.vCenter
+	position: absolute
+	top: 25%
+
+.notVisible
+	display: none
+	margin: 0 !important
+.isVisible
+	display: block
+	margin: 0 !important
+	p
+		text-align: justify
+.wrap.bf
 	margin-top: 2rem
 	.col-sm-6
-		padding: 0 0
 		p
 			text-align: justify
-		img
-			width: 20rem
-			margin-left: 7rem
 
 /*FORM*/
 .contact
@@ -330,3 +326,8 @@ $tam-parrafo-normal: 1rem
 @media only screen and (min-width: 1170px) 
 	.cd-headline 
 		font-size: 6rem
+
+@media screen and (max-width: 576px)
+	.vCenter
+		margin-top: 1rem !important
+		position: static
