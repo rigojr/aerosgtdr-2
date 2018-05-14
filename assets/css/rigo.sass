@@ -10,6 +10,7 @@
 	7 - Breadcrumb
 	8 - services
 	9 - NOSOTROS
+	10 - VISTA MOVIL
 /* VARIABLES */
 
 /* COLORES */
@@ -21,6 +22,7 @@ $negro-fuerte: #000000
 $negro-mate: #3B3B3B
 $blanco-fuerte: #FFFFFF
 $blanco-suave: #EDEEF6
+$azul-nuevo: #007bff
 
 $verde-fosfo: #0DFF72
 $azul-mate: #22448E
@@ -50,15 +52,24 @@ $tam-bread-secundario: 1.3rem
 	width: 100%
 	max-width: 1200px
 	margin: 0 auto
+	overflow: hidden
+	padding-left: 0rem
 a
 	&:hover
 		text-decoration: none
 html, body
 	font-size: 14px
 
+.especial-arriba
+	display: none
+
+.rrss-media
+	display: none
 /* HEADER */
 
 body
+	.pos-f-t
+		display: none
 	.first-view
 		background-size: cover
 		background-position: center top
@@ -157,6 +168,7 @@ body
 				border-color: $morado-1 !important
 	.natural
 		margin-top: 3rem
+		overflow: hidden
 		h2,h1
 			text-align: center
 			font-size: $tam-principal-grande
@@ -178,6 +190,7 @@ body
 				text-align: center
 				img 
 					box-shadow: 7px 7px 10px rgba(0,0,0,.3)
+					width: 100%
 		.title-about
 			color: $rojo
 			font-family: $font-indie !important
@@ -385,3 +398,110 @@ body
 			transition: 300ms all ease
 			p
 				text-align: center
+
+/* VISTA MOVIL */
+
+@media screen and (max-width: 992px)
+	header
+		display: none
+	.pos-f-t
+		display: block !important
+	.supra-info
+		.nav-item
+			img
+				width: 1rem
+				margin-right: .5rem
+	.rrss
+		.small-parra
+			font-weight: 300
+			margin-bottom: .5rem
+		li
+			img
+				width: 2rem
+				margin: 0rem 0.5rem
+				transition: 300ms all ease
+				&:hover
+					opacity: .7
+	.idioma
+		a
+			text-decoration: underline
+			font-weight: 700
+			transition: 300ms all ease		
+	.bg-dark
+		background-color: $morado-1 !important
+		li
+			a
+				color: $blanco-fuerte
+	.bg-primary
+		background-color: $rojo !important
+	.right-info-serv
+		display: block
+		position: static !important
+		ul
+			position: static !important
+			text-align: center
+
+@media screen and (max-width: 576px)
+	.natural
+		margin-top: 0rem !important
+		h2
+			font-size: 2rem !important
+		h1
+			padding: 0rem !important
+			font-size: 2rem !important
+	.especial-arriba
+		display: block
+		margin: 0 auto
+	.especial-abajo
+		display: none
+	.call-subs
+		margin: 0rem !important
+	.natural-serv
+		margin: 2rem 0rem !important
+	.breadcrumb
+		.title-custom
+			h2
+				font-size: 2rem !important
+
+@media screen and (max-width: 992px)
+	footer
+		padding: 0rem !important
+		.rrss
+			margin-top: 1rem !important
+		.sigu-text
+			text-align: right !important
+		.navigation
+			ul
+				li
+					a
+						text-align: center
+
+/* SABORES */
+body
+	.flavor
+		margin: 0rem
+		max-height: 100%
+		padding: 1rem !important
+		hr
+			border-color: $blanco-fuerte
+			margin-bottom: .5rem
+		a
+			margin: 1rem 0rem
+	.special-wrap
+		padding: 0rem !important
+		.row
+			margin: 0rem !important
+	.flavor .flavor-title
+		font-weight: 700
+	.juices
+		padding: 0rem !important
+		.isVisible
+			margin: 0rem !important
+			img
+				width: 100% !important
+				margin: 0rem !important
+				max-width: 6rem
+		.text-w-img
+			text-align: center
+		p
+			padding: 1rem

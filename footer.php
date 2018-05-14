@@ -1,14 +1,14 @@
 
 	<footer>
 		<div class="row wrap">
-			<div class="col-sm-4 rrss">
+			<div class="col-lg-4 rrss">
 				<div class="row">
-					<div class="col-sm-6">
-						<p>
+					<div class="col-lg-6 col-5">
+						<p class="sigu-text">
 							Síguenos:
 						</p>
 					</div>
-					<div class="col-sm-6">
+					<div class="col-lg-6 col-7">
 						<ul class="rrss-footer nav">
 							<li class="nav-item"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/facebook-logo.png" alt="Facebook"></a></li>
 							<li class="nav-item"><a 	href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/instagram-logo.png" alt="Instagram"></a></li>
@@ -20,7 +20,7 @@
 					Diseñado, Desarrollado & Gestionado por <a href="https://aeros.io">Aeros</a>
 				</p>
 			</div>
-			<div class="col-sm-4 center">
+			<div class="col-lg-4 center">
 				<p><a href="<?php echo esc_url( home_url( '/' ) ); ?>">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="GTDR Logo" title="Gruptech Dominican Republic">
 					</a>
@@ -32,9 +32,9 @@
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/craft-logo.png" alt="GTDR Logo" title="Gruptech Dominican Republic">
 				</p>
 			</div>
-			<div class="col-sm-4 navigation">
+			<div class="col-lg-4 navigation">
 				<div class="row">
-					<div class="col-sm-4">
+					<div class="col-lg-4">
 						<ul>
 							<li class="nav-item">
 								<a class="nav-link" href="#">Inicio</a>
@@ -47,7 +47,7 @@
 							</li>
 						</ul>
 					</div>
-					<div class="col-sm-8">
+					<div class="col-lg-8">
 						<ul>
 							<li class="nav-item">
 								<a class="nav-link" href="#">Servicios</a>

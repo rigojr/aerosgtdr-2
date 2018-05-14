@@ -8,14 +8,17 @@
  * 6 - 404
  * 7 - Breadcrumb
  * 8 - services
- * 9 - NOSOTROS */
+ * 9 - NOSOTROS
+ * 10 - VISTA MOVIL */
 /* VARIABLES */
 /* COLORES */
 /* TIPOGRAFIA */
 .wrap {
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  overflow: hidden;
+  padding-left: 0rem; }
 
 a:hover {
   text-decoration: none; }
@@ -23,7 +26,15 @@ a:hover {
 html, body {
   font-size: 14px; }
 
+.especial-arriba {
+  display: none; }
+
+.rrss-media {
+  display: none; }
+
 /* HEADER */
+body .pos-f-t {
+  display: none; }
 body .first-view {
   background-size: cover;
   background-position: center top; }
@@ -112,7 +123,8 @@ body .normal-btn a, body .error-actions a {
     background-color: #482E78 !important;
     border-color: #482E78 !important; }
 body .natural {
-  margin-top: 3rem; }
+  margin-top: 3rem;
+  overflow: hidden; }
   body .natural h2, body .natural h1 {
     text-align: center;
     font-size: 3rem;
@@ -130,7 +142,8 @@ body .about, body .soluciones {
   body .about .img-about p, body .about .img-sol p, body .soluciones .img-about p, body .soluciones .img-sol p {
     text-align: center; }
     body .about .img-about p img, body .about .img-sol p img, body .soluciones .img-about p img, body .soluciones .img-sol p img {
-      box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.3); }
+      box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.3);
+      width: 100%; }
   body .about .title-about, body .soluciones .title-about {
     color: #CC340B;
     font-family: "Indie Flower", cursive !important;
@@ -324,5 +337,108 @@ body .about .second-cardbody {
   transition: 300ms all ease; }
   body .about .second-cardbody p {
     text-align: center; }
+
+/* VISTA MOVIL */
+@media screen and (max-width: 992px) {
+  header {
+    display: none; }
+
+  .pos-f-t {
+    display: block !important; }
+
+  .supra-info .nav-item img {
+    width: 1rem;
+    margin-right: 0.5rem; }
+
+  .rrss .small-parra {
+    font-weight: 300;
+    margin-bottom: 0.5rem; }
+  .rrss li img {
+    width: 2rem;
+    margin: 0rem 0.5rem;
+    transition: 300ms all ease; }
+    .rrss li img:hover {
+      opacity: 0.7; }
+
+  .idioma a {
+    text-decoration: underline;
+    font-weight: 700;
+    transition: 300ms all ease; }
+
+  .bg-dark {
+    background-color: #482E78 !important; }
+    .bg-dark li a {
+      color: #FFFFFF; }
+
+  .bg-primary {
+    background-color: #CC340B !important; }
+
+  .right-info-serv {
+    display: block;
+    position: static !important; }
+    .right-info-serv ul {
+      position: static !important;
+      text-align: center; } }
+@media screen and (max-width: 576px) {
+  .natural {
+    margin-top: 0rem !important; }
+    .natural h2 {
+      font-size: 2rem !important; }
+    .natural h1 {
+      padding: 0rem !important;
+      font-size: 2rem !important; }
+
+  .especial-arriba {
+    display: block;
+    margin: 0 auto; }
+
+  .especial-abajo {
+    display: none; }
+
+  .call-subs {
+    margin: 0rem !important; }
+
+  .natural-serv {
+    margin: 2rem 0rem !important; }
+
+  .breadcrumb .title-custom h2 {
+    font-size: 2rem !important; } }
+@media screen and (max-width: 992px) {
+  footer {
+    padding: 0rem !important; }
+    footer .rrss {
+      margin-top: 1rem !important; }
+    footer .sigu-text {
+      text-align: right !important; }
+    footer .navigation ul li a {
+      text-align: center; } }
+/* SABORES */
+body .flavor {
+  margin: 0rem;
+  max-height: 100%;
+  padding: 1rem !important; }
+  body .flavor hr {
+    border-color: #FFFFFF;
+    margin-bottom: 0.5rem; }
+  body .flavor a {
+    margin: 1rem 0rem; }
+body .special-wrap {
+  padding: 0rem !important; }
+  body .special-wrap .row {
+    margin: 0rem !important; }
+body .flavor .flavor-title {
+  font-weight: 700; }
+body .juices {
+  padding: 0rem !important; }
+  body .juices .isVisible {
+    margin: 0rem !important; }
+    body .juices .isVisible img {
+      width: 100% !important;
+      margin: 0rem !important;
+      max-width: 6rem; }
+  body .juices .text-w-img {
+    text-align: center; }
+  body .juices p {
+    padding: 1rem; }
 
 /*# sourceMappingURL=rigo.css.map */

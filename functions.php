@@ -23,48 +23,8 @@ function genesis_widgets() {
 	) );
 
 	register_sidebar( array(
-		'name'          => 'Products & Services Submenu Widget',
-		'id'            => 'proserv-submenu',
-		'description'   => 'No desc',
-		'before_widget' => '<div id="%1$s" class="submenu">',
-		'after_widget'  => '</div>',
-		'before_title'  => '',
-		'after_title'   => '',
-	) );
-
-	register_sidebar( array(
 		'name'          => 'Contact Form',
 		'id'            => 'form-contact',
-		'description'   => 'No desc',
-		'before_widget' => '',
-		'after_widget'  => '',
-		'before_title'  => '',
-		'after_title'   => '',
-	) );
-
-	register_sidebar( array(
-		'name'          => 'Form Subs Inline',
-		'id'            => 'form-inline-subs',
-		'description'   => 'No desc',
-		'before_widget' => '',
-		'after_widget'  => '',
-		'before_title'  => '',
-		'after_title'   => '',
-	) );
-
-	register_sidebar( array(
-		'name'          => 'Widget Footer Left',
-		'id'            => 'footer-left',
-		'description'   => 'No desc',
-		'before_widget' => '',
-		'after_widget'  => '',
-		'before_title'  => '',
-		'after_title'   => '',
-	) );
-	
-	register_sidebar( array(
-		'name'          => 'Widget Footer Right',
-		'id'            => 'footer-right',
 		'description'   => 'No desc',
 		'before_widget' => '',
 		'after_widget'  => '',

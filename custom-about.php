@@ -38,7 +38,7 @@
 				</div>
 			</div>
 </div>
-<div class="natural">
+<div class="natural natural-serv">
 	<h1 class="cd-headline push">
 	<span class="cd-words-wrapper">
 		<b class="is-visible">Trabajo en Equipo</b>
@@ -57,7 +57,7 @@
 <?php get_template_part( 'subs-form' ); ?>
 
 <div class="wrap row about">
-		<div class="col-sm-6 overflow">
+		<div class="col-sm-12 overflow">
 			<h2 class="title-about" style="text-align: center;">
 				Soluciones para la Industria Dominicana
 			</h2>
@@ -71,8 +71,6 @@
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua.
 			</p>
-		</div>
-		<div class="col-sm-6 overflow">
 		</div>
 		<div class="normal-btn btn-serv">
 			<p>

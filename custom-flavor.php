@@ -4,7 +4,7 @@
 
 <?php get_template_part( 'breadcrumb' ); ?>
 
-<div class="wrap">
+<div class="wrap special-wrap container">
 	<div class="row">
 		<div class="col-sm-4 flavor">
 			<h2 class="flavor-title">
@@ -14,22 +14,22 @@
 				Craft Juice
 			</p>
 			<hr color="white">
-			<a id="al"><div class="list-flavor active">Alcalinos</div></a>
-			<a id="de"><div class="list-flavor">Desintoxicantes</div></a>
-			<a id="an"><div class="list-flavor">Antioxidante y Refrescante</div></a>
-			<a id="nu"><div class="list-flavor">Nutritivo</div></a>
+			<a id="al"><p class="list-flavor active">Alcalinos</p></a>
+			<a id="de"><p class="list-flavor">Desintoxicantes</p></a>
+			<a id="an"><p class="list-flavor">Antioxidante y Refrescante</p></a>
+			<a id="nu"><p class="list-flavor">Nutritivo</p></a>
 		</div>
-		<div class="col-sm-6 juices">
-			<div id="j1" class="isVisible">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/red.png">
+		<div class="col-sm-8 juices">
+			<div id="j1" class="isVisible row">
+				<p class="text-w-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/red.png"></p>
 				<p>Son beneficiosas para lograr el equilibrio de los líquidos que componen nuestro cuerpo evitando múltiples disfunciones, desde problemas estomacales hasta la fatiga, la osteoporosis o las afecciones derivadas de un sistema inmunológico debilitado.</p>
 			</div>
 			<div id="j2" class="notVisible">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/green.png">
+				<p class="text-w-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/green.png"></p>
 				<p>Estas bebidas permiten impulsar el organismo para que elimine las toxinas y desechos que se acumulan como consecuencia de la mala alimentación, la contaminación o el estilo de vida sedentario. Al eliminar las sustancias de desecho del cuerpo y limpiar el organismo, la desintoxicación ayuda a mejorar los sistemas del cuerpo para que trabajen adecuadamente.</p>
 			</div>
 			<div id="j3" class="notVisible">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow.png">
+				<p class="text-w-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow.png"></p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -38,7 +38,7 @@
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</div>
 			<div id="j4" class="notVisible">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/orange.png">
+				<p class="text-w-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/orange.png"></p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
