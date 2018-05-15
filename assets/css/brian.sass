@@ -204,22 +204,21 @@ $tam-parrafo-normal: 1rem
 
 .cd-headline 
 	font-size: 3rem
-	line-height: 1.2
-	text-align: center !important
+	height: 100%
 	.cd-words-wrapper 
 		display: inline-block
 		position: relative
-		text-align: center !important
+		overflow: hidden
+		vertical-align: top
+		height: 4rem //ESTO ES PARA QUE LA "Y" NO SE CORTE
 		b
 			display: inline-block
 			position: absolute
 			white-space: nowrap
 			left: 0
 			top: 0
-			text-align: center !important
 			&.is-visible
 				position: relative
-				text-align: center !important
 	&.push
 		span
 			display: inline-block
@@ -236,29 +235,24 @@ $tam-parrafo-normal: 1rem
 				-moz-animation: push-out 1s
 				animation: push-out 1s
 	&.clip
-		text-align: center !important
-		margin: auto
 		span 
-			display: block !important
-			text-align: center !important
+			display: inline-block
 			margin: auto
-		.cd-words-wrapper::after 
-			/* line */
-			content: ''
-			position: absolute
-			top: 0
-			right: 0
-			width: 2px
-			height: 100%
-			background-color: $rojo
-			text-align: center !important
+			&::after
+				/* line */
+				content: ''
+				position: absolute
+				display: inline-block
+				top: 0
+				right: 0
+				width: 2px
+				height: 100%
+				background-color: $rojo
 		b
 			font-family: $font-indie !important 
 			opacity: 0
-			text-align: center !important
 			&.is-visible 
 				opacity: 1
-				text-align: center !important
 
 @-webkit-keyframes push-in 
 	0% 
