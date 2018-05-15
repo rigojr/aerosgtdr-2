@@ -16,12 +16,12 @@
 			<div class="col-md-6 info-jugos">
 				<div class="card">
 					<div class="card-body">
-						<h2 class="card-title">Craft Juice</h2>
+						<h2 class="card-title title-about">Craft Juice</h2>
 						<p class="card-text">
     						Jugos elaborados a base de frutas y vegetales, dirigido a aquellos con deficiencia de alcalinidad y que deseen desintoxicarse, con líneas de producción definidas específicamente como la roja, verde, amarilla y blanca.
     					</p>
     					<div class="normal-btn">
-    						<p><a class="btn btn-success openF">Leer Más</a></p>
+    						<p><a class="btn btn-success openF" href="<?php echo esc_url( home_url( '/' ) ); ?>/sabores"">Leer Más</a></p>
     					</div>
 					</div>
 				</div>
@@ -50,7 +50,7 @@
 						<p>Gracias a la constante innovación  de nuestros ejecutivos y a pesar de ser una empresa joven, contamos con presencia en países como México, Guatemala,  Honduras, El Salvador, Costa Rica, Nicaragua, Panamá, Colombia, Perú,  Ecuador, Chile, Argentina, Brasil, República Dominicana, Puerto Rico, Trinidad y Tobago y  Guyana.</p>
 					</div>
 					<div class="normal-btn">
-						<p><a class="btn btn-success openF">Leer Más</a></p>
+						<p><a class="btn btn-success openF" href="<?php echo esc_url( home_url( '/' ) ); ?>/nosotros">Leer Más</a></p>
 					</div>
 				</div>
 			</div>
@@ -66,7 +66,7 @@
 						<h2 class="title-about">Soluciones para la Industria Dominicana</h2>
 						<p class="card-text">
 							Más allá de la fabricación y elaboración de jugos naturales, Gruptech Dominican Republic pone a la disposición de la industria Dominicana los productos y servicios a continuación:
-							<ul>
+							<ul class="p-normal">
 								<li>Suministros y consumibles</li>
 								<li>Integración de líneas de producción completas</li>
 								<li>Manejo de materiales</li>
@@ -74,7 +74,7 @@
 							</ul>
 						</p>
 						<div class="normal-btn">
-							<p><a class="btn btn-success openF">Leer Más</a></p>
+							<p><a class="btn btn-success openF" href="<?php echo esc_url( home_url( '/' ) ); ?>/servicios">Leer Más</a></p>
 						</div>
 					</div>
 				</div>
