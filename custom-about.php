@@ -14,7 +14,6 @@
 					<h2 class="title-about">Gruptech Dominican Republic</h2>
 					<div class="card-text not-round">
 						<p>Gruptech Cloud Dominican Republic es una empresa fundada octubre del año 2017 que se encarga de elaborar y fabricar jugos de alto valor nutricional a base de frutas.</p>
-						<p>Nuestra misión es promover el consumo combinado de frutas y vegetales, aportando beneficios para la salud. Respetar el medio ambiente y elaborar productos de alta calidad, brindando  confianza a los consumidores.</p>
 					</div>
 				</div>
 			</div>
@@ -22,18 +21,8 @@
 		<div class="card second-cardbody">
 				<div class="card-body">
 					<div class="card-text">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor <b>incididunt ut labore</b> et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. <b>Excepteur sint occaecat</b> cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud <b>exercitation ullamco</b> laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<p>Nuestra misión es promover el consumo combinado de frutas y vegetales, aportando beneficios para la salud. Respetar el medio ambiente y elaborar productos de alta calidad, brindando  confianza a los consumidores.</p>
+						<p>Gracias a la constante innovación  de nuestros ejecutivos y a pesar de ser una empresa joven, contamos con presencia en países como México, Guatemala,  Honduras, El Salvador, Costa Rica, Nicaragua, Panamá, Colombia, Perú,  Ecuador, Chile, Argentina, Brasil, República Dominicana, Puerto Rico, Trinidad y Tobago y  Guyana.</p>
 					</div>
 				</div>
 			</div>
@@ -62,14 +51,7 @@
 				Soluciones para la Industria Dominicana
 			</h2>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua.
+				Más allá de la fabricación y elaboración de jugos naturales, Gruptech Dominican Republic pone a la disposición de la industria Dominicana servicios de <b>suministros y consumibles</b>, <b>integración de líneas de producción completas</b>, <b>manejo de materiales</b>, <b>ventas de maquinarias</b> y más...
 			</p>
 		</div>
 		<div class="normal-btn btn-serv">

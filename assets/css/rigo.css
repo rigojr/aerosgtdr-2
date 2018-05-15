@@ -288,6 +288,9 @@ body .breadcrumb h1 {
   margin: 0; }
 
 /* services */
+body .row-services {
+  margin-right: 0px !important;
+  margin-left: 0px !important; }
 body .title-custom h2 {
   text-align: center;
   font-weight: 300;
@@ -296,12 +299,10 @@ body .title-custom h2 {
 body .left-info-serv p {
   text-align: justify; }
 body .right-info-serv {
-  position: relative; }
+  height: 100%;
+  margin-top: 2rem; }
   body .right-info-serv ul {
     padding: 3rem;
-    position: absolute;
-    top: 20%;
-    left: 10%;
     background-color: #482E78;
     color: #FFFFFF;
     transition: 300ms all ease; }
