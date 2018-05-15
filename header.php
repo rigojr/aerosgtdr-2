@@ -12,6 +12,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 </head>
 <body>
+	<div class="loader">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" style="width: 10%" alt="Loading...">
+	</div>
 	<div class="first-view" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/background-upper.jpg');">
 		<header class="wrap">
 			<div class="container supra-header">

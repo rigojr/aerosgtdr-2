@@ -73,6 +73,7 @@
 	<!-- JS BRIAN -->
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/clip.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/modal.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/load.js"></script>
     <script src="https://www.google.com/recaptcha/api.js"></script>
 
     <!-- JS RIGO -->

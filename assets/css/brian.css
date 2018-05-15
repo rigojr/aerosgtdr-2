@@ -1,5 +1,19 @@
 /* COLORES */
 /* TIPOGRAFIA */
+/*LOADER */
+.loader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: #FFFFFF; }
+  .loader img {
+    display: block;
+    position: relative;
+    top: 45%;
+    transform: translateY(-45%);
+    margin: 0 auto; }
+
 /*BREADCRUMB */
 .breadcrumb {
   background-color: rgba(204, 52, 11, 0.75); }
@@ -156,19 +170,22 @@
 
 .cd-headline {
   font-size: 3rem;
-  line-height: 1.2; }
+  line-height: 1.2;
+  text-align: center !important; }
   .cd-headline .cd-words-wrapper {
     display: inline-block;
     position: relative;
-    text-align: left; }
+    text-align: center !important; }
     .cd-headline .cd-words-wrapper b {
       display: inline-block;
       position: absolute;
       white-space: nowrap;
       left: 0;
-      top: 0; }
+      top: 0;
+      text-align: center !important; }
       .cd-headline .cd-words-wrapper b.is-visible {
-        position: relative; }
+        position: relative;
+        text-align: center !important; }
   .cd-headline.push span {
     display: inline-block;
     padding: 0.2rem 0; }
@@ -183,6 +200,30 @@
       -webkit-animation: push-out 1s;
       -moz-animation: push-out 1s;
       animation: push-out 1s; }
+  .cd-headline.clip {
+    text-align: center !important;
+    margin: auto; }
+    .cd-headline.clip span {
+      display: block !important;
+      text-align: center !important;
+      margin: auto; }
+    .cd-headline.clip .cd-words-wrapper::after {
+      /* line */
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 2px;
+      height: 100%;
+      background-color: #CC340B;
+      text-align: center !important; }
+    .cd-headline.clip b {
+      font-family: "Indie Flower", cursive !important;
+      opacity: 0;
+      text-align: center !important; }
+      .cd-headline.clip b.is-visible {
+        opacity: 1;
+        text-align: center !important; }
 
 @-webkit-keyframes push-in {
   0% {
@@ -279,5 +320,8 @@
   .vCenter {
     margin-top: 1rem !important;
     position: static; } }
+@media screen and (max-width: 992px) {
+  .loader img {
+    width: 25% !important; } }
 
 /*# sourceMappingURL=brian.css.map */

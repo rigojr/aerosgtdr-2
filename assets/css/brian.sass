@@ -31,6 +31,21 @@ $tam-bread-principal: 2.5rem
 $tam-bread-secundario: 1.3rem
 $tam-parrafo-normal: 1rem
 
+/*LOADER*/
+.loader
+	position: fixed
+	width: 100%
+	height: 100%
+	z-index: 9999
+	background: $blanco-fuerte
+	img
+		display: block
+		position: relative
+		top: 45%
+		transform: translateY(-45%)
+		margin: 0 auto
+
+
 /*BREADCRUMB*/
 .breadcrumb
 	background-color: rgba(204,52,11,0.75)
@@ -190,18 +205,21 @@ $tam-parrafo-normal: 1rem
 .cd-headline 
 	font-size: 3rem
 	line-height: 1.2
+	text-align: center !important
 	.cd-words-wrapper 
 		display: inline-block
 		position: relative
-		text-align: left
+		text-align: center !important
 		b
 			display: inline-block
 			position: absolute
 			white-space: nowrap
 			left: 0
 			top: 0
+			text-align: center !important
 			&.is-visible
 				position: relative
+				text-align: center !important
 	&.push
 		span
 			display: inline-block
@@ -217,6 +235,30 @@ $tam-parrafo-normal: 1rem
 				-webkit-animation: push-out 1s
 				-moz-animation: push-out 1s
 				animation: push-out 1s
+	&.clip
+		text-align: center !important
+		margin: auto
+		span 
+			display: block !important
+			text-align: center !important
+			margin: auto
+		.cd-words-wrapper::after 
+			/* line */
+			content: ''
+			position: absolute
+			top: 0
+			right: 0
+			width: 2px
+			height: 100%
+			background-color: $rojo
+			text-align: center !important
+		b
+			font-family: $font-indie !important 
+			opacity: 0
+			text-align: center !important
+			&.is-visible 
+				opacity: 1
+				text-align: center !important
 
 @-webkit-keyframes push-in 
 	0% 
@@ -331,3 +373,8 @@ $tam-parrafo-normal: 1rem
 	.vCenter
 		margin-top: 1rem !important
 		position: static
+
+@media screen and (max-width: 992px)
+	.loader
+		img
+			width: 25% !important
