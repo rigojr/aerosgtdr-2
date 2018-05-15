@@ -12,9 +12,11 @@
 	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 </head>
 <body>
+
 	<div class="loader">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" style="width: 10%" alt="Loading...">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" style="width: 10%" alt="Cargando...">
 	</div>
+
 	<div class="first-view" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/background-upper.jpg');">
 		<header class="wrap">
 			<div class="container supra-header">
@@ -22,7 +24,7 @@
 					<div class="col-sm-6">
 						<ul class="rrss nav">
 							<li class="nav-item"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/facebook-logo.png" alt="Facebook"></a></li>
-							<li class="nav-item"><a 	href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/instagram-logo.png" alt="Instagram"></a></li>
+							<li class="nav-item"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/instagram-logo.png" alt="Instagram"></a></li>
 							<li class="nav-item"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/linkedin-logo.png" alt="Linkedin"></a></li>
 						</ul>
 					</div>
@@ -45,7 +47,7 @@
 					<nav class="col-sm-5">
 						<ul class="nav justify-content-end">
 							<li class="nav-item">
-								<a id="contact" class="nav-link">CONTACTO</a>
+								<a id="contact" class="nav-link" href="#">CONTACTO</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="<?php echo esc_url( home_url( '/' ) ); ?>/servicios">SERVICIOS</a>
@@ -87,7 +89,7 @@
 	            <ul class="rrss nav">
 	            	<li><p class="text-white small-parra">Síguenos: </p></li>
 					<li class="nav-item"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/facebook-logo.png" alt="Facebook"></a></li>
-					<li class="nav-item"><a 	href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/instagram-logo.png" alt="Instagram"></a></li>
+					<li class="nav-item"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/instagram-logo.png" alt="Instagram"></a></li>
 					<li class="nav-item"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/linkedin-logo.png" alt="Linkedin"></a></li>
 				</ul>
 	        </div>

@@ -13,18 +13,18 @@
 		                    404 Not Found
 		                </h2>
 		                <div class="error-details">
-		                    Al parecer la página que estabas buscando no existe... O quizás es nuestro error
+		                    <p>Al parecer la página que estabas buscando no existe... O quizás es nuestro error.</p>
 		                </div>
 		                <div class="error-details">
-		                    Cualquiera que sea el caso, te sugerimos que regreses o que nos contactes.
+		                    <p>Cualquiera que sea el caso, te sugerimos que regreses o que nos contactes.</p>
 		                </div>
-		                <br>
 		                <div class="error-actions">
-		                    <a class="btn btn-success openF" href="<?php echo esc_url( home_url( '/' ) ); ?>" class="btn btn-primary btn-lg">
-		                        Llévame de vuelta </a>
-	                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="btn btn-primary btn-lg push">
-	                        	Contáctanos </a>
-		                <br>
+		                	<div class="normal-btn btn-serv special-404-btn">
+								<p><a class="btn btn-success openF" href="#">Contacto</a></p>
+							</div>
+							<div class="normal-btn btn-serv special-404-btn">
+								<p><a class="btn btn-success openF" href="<?php echo esc_url( home_url( '/' ) ); ?>">Llévame de Vuelta</a></p>
+							</div>
 		                </div>
 		            </div>
 		        </div>

@@ -24,12 +24,19 @@ a:hover {
   text-decoration: none; }
 
 html, body {
-  font-size: 14px; }
+  font-size: 14px;
+  min-width: 300px; }
 
 .especial-arriba {
   display: none; }
 
 .rrss-media {
+  display: none; }
+
+.p-normal {
+  font-size: 1.3rem; }
+
+.flavor-secundario {
   display: none; }
 
 /* HEADER */
@@ -100,7 +107,7 @@ body .card {
   body .card .card-body {
     padding: 1.5rem; }
     body .card .card-body .card-title {
-      font-size: 1.2rem !important; }
+      font-size: 2rem !important; }
     body .card .card-body .card-text {
       text-align: justify;
       font-weight: 300;
@@ -109,7 +116,7 @@ body .normal-btn p, body .error-actions p {
   text-align: right;
   margin: 0 0; }
 body .normal-btn a, body .error-actions a {
-  font-size: 1rem !important;
+  font-size: 1.5rem;
   color: #FFFFFF !important;
   border-radius: 0.5rem !important;
   background-color: #CC340B !important;
@@ -138,16 +145,17 @@ body .natural {
 
 /* ABOUT Y SOLUCIONES */
 body .about, body .soluciones {
-  margin-top: 3rem; }
+  margin-top: 3rem;
+  padding-bottom: 3rem; }
   body .about .img-about p, body .about .img-sol p, body .soluciones .img-about p, body .soluciones .img-sol p {
     text-align: center; }
     body .about .img-about p img, body .about .img-sol p img, body .soluciones .img-about p img, body .soluciones .img-sol p img {
       box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.3);
       width: 100%; }
-  body .about .title-about, body .soluciones .title-about {
-    color: #CC340B;
-    font-family: "Indie Flower", cursive !important;
-    font-size: 2rem !important; }
+body .title-about {
+  color: #CC340B;
+  font-family: "Indie Flower", cursive !important;
+  font-size: 2rem !important; }
 body .bg {
   background-size: cover;
   background-position: center; }
@@ -322,10 +330,12 @@ body .btn-serv {
     text-align: center; }
     body .btn-serv p a {
       font-size: 1.5rem !important; }
+body .special-404-btn {
+  margin: 1rem 0rem; }
 
 /* NOSOTROS */
 body p {
-  font-size: 1.1rem; }
+  font-size: 1.3rem; }
   body p b {
     font-weight: 700; }
 body .about .first-cardbody {
@@ -380,6 +390,9 @@ body .about .second-cardbody {
       position: static !important;
       text-align: center; } }
 @media screen and (max-width: 576px) {
+  html {
+    font-size: 12px; }
+
   .natural {
     margin-top: 0rem !important; }
     .natural h2 {
@@ -399,10 +412,16 @@ body .about .second-cardbody {
     margin: 0rem !important; }
 
   .natural-serv {
-    margin: 2rem 0rem !important; }
+    padding: 2rem 0rem !important; }
 
   .breadcrumb .title-custom h2 {
-    font-size: 2rem !important; } }
+    font-size: 2rem !important; }
+
+  .cd-headline {
+    margin: 1rem 0rem !important; }
+
+  .normal-btn a, .error-actions a {
+    font-size: 1.5rem !important; } }
 @media screen and (max-width: 992px) {
   footer {
     padding: 0rem !important; }
@@ -417,7 +436,20 @@ body .about .second-cardbody {
     display: none; }
 
   .bf {
-    margin-top: 0rem !important; } }
+    margin-top: 0rem !important; }
+
+  .flavor-secundario {
+    display: inline-block; }
+
+  .flavor-principal {
+    display: none; }
+
+  .bottle-flavor .p-img img {
+    width: 200px !important;
+    max-width: 15% !important; }
+
+  .bottle-all-secundario {
+    min-height: 160px; } }
 /* SABORES */
 body .flavor {
   margin: 0rem;
@@ -455,11 +487,33 @@ body .main-info-flavor p {
 body .bottle-flavor .p-img {
   text-align: center; }
   body .bottle-flavor .p-img img {
-    max-width: 35%; }
+    max-width: 40%; }
 body .flavor-principal .row {
   margin-top: 2rem;
   margin-right: 0rem;
   margin-left: 0rem; }
+body .bottle-all-secundario {
+  position: relative;
+  overflow: hidden;
+  transition: 300ms all ease;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.7) !important;
+  margin: 1.5rem 0rem; }
+  body .bottle-all-secundario img {
+    opacity: 0.2; }
+  body .bottle-all-secundario .desc {
+    position: absolute;
+    transition: top 1s linear;
+    top: 0; }
+    body .bottle-all-secundario .desc p {
+      font-size: 1rem; }
+  body .bottle-all-secundario .card-title {
+    text-align: center;
+    font-weight: 700; }
+  body .bottle-all-secundario .card-text {
+    text-align: justify; }
+body .arropa {
+  padding: 0rem 1rem; }
 body .bottle-all {
   position: relative;
   overflow: hidden;
@@ -468,6 +522,8 @@ body .bottle-all {
   body .bottle-all .desc {
     position: absolute;
     transition: top 1s linear; }
+    body .bottle-all .desc p {
+      font-size: 1rem; }
   body .bottle-all:hover {
     background-color: rgba(255, 255, 255, 0.7) !important; }
     body .bottle-all:hover img {
@@ -482,5 +538,11 @@ body .bottle-all {
 body .bf .card {
   background-color: #482E78;
   color: #FFFFFF; }
+
+/* FORM */
+body .modalF .form-login br {
+  display: none; }
+body .modalF .form-login input, body .modalF .form-login select, body .modalF .form-login textarea {
+  margin: 0.5rem auto !important; }
 
 /*# sourceMappingURL=rigo.css.map */

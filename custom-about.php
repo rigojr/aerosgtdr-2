@@ -5,15 +5,20 @@
 <?php get_template_part( 'breadcrumb' ); ?>
 
 <div class="wrap row about">
-		<div class="col-sm-6 img-about">
+		<div class="col-sm-4 img-about">
 			<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/about.jpg" alt="Sobre GTDR"></p>
 		</div>
-		<div class="col-sm-6">
+		<div class="col-sm-8">
 			<div class="card first-cardbody">
 				<div class="card-body">
-					<h2 class="title-about">Gruptech Dominican Republic</h2>
 					<div class="card-text not-round">
-						<p>Gruptech Cloud Dominican Republic es una empresa fundada octubre del año 2017 que se encarga de elaborar y fabricar jugos de alto valor nutricional a base de frutas.</p>
+						<p> <span class="title-about">Gruptech Dominican Republic</span> es una empresa fundada en octubre de 2017 enofocada en elaborar, diseñar y fabricar jugos de alta calidad con excelente valor nutricional a base de frutas para toda la comunidad Dominicana.</p>
+						<p>
+							En GruptechDR también ofrecemos diversos servicios especializados para la industria Dominicana.
+						</p>
+						<div class="normal-btn">
+    						<p><a class="btn btn-success" href="<?php echo esc_url( home_url( '/' ) ); ?>/servicios">Servicios para la Industria Dominicana</a></p>
+    					</div>
 					</div>
 				</div>
 			</div>
@@ -22,7 +27,7 @@
 				<div class="card-body">
 					<div class="card-text">
 						<p>Nuestra misión es promover el consumo combinado de frutas y vegetales, aportando beneficios para la salud. Respetar el medio ambiente y elaborar productos de alta calidad, brindando  confianza a los consumidores.</p>
-						<p>Gracias a la constante innovación  de nuestros ejecutivos y a pesar de ser una empresa joven, contamos con presencia en países como México, Guatemala,  Honduras, El Salvador, Costa Rica, Nicaragua, Panamá, Colombia, Perú,  Ecuador, Chile, Argentina, Brasil, República Dominicana, Puerto Rico, Trinidad y Tobago y  Guyana.</p>
+						<p><b>Gracias a la constante innovación  de nuestros ejecutivos</b> y a pesar de ser una empresa joven, contamos con presencia en países como México, Guatemala,  Honduras, El Salvador, Costa Rica, Nicaragua, Panamá, Colombia, Perú,  Ecuador, Chile, Argentina, Brasil, República Dominicana, Puerto Rico, Trinidad y Tobago y  Guyana.</p>
 					</div>
 				</div>
 			</div>
@@ -56,7 +61,7 @@
 		</div>
 		<div class="normal-btn btn-serv">
 			<p>
-				<a class="btn btn-success openF" href="#">Leer Más</a>
+				<a class="btn btn-success" href="<?php echo esc_url( home_url( '/' ) ); ?>/servicios">Leer Más</a>
 			</p>
 		</div>
 </div>

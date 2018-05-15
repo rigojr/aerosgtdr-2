@@ -39,7 +39,7 @@ $tam-secundario-normal: 1rem
 $tam-principal-grande: 3rem
 $tam-principal: 2rem
 $font-indie: 'Indie Flower', cursive
-$tam-parrafo-normal: 1.1rem
+$tam-parrafo-normal: 1.3rem
 
 $tam-menu: 1rem
 $tam-footer-principal: 1rem
@@ -59,11 +59,18 @@ a
 		text-decoration: none
 html, body
 	font-size: 14px
+	min-width: 300px
 
 .especial-arriba
 	display: none
 
 .rrss-media
+	display: none
+
+.p-normal
+	font-size: $tam-parrafo-normal
+
+.flavor-secundario
 	display: none
 /* HEADER */
 
@@ -143,7 +150,7 @@ body
 		.card-body
 			padding: 1.5rem
 			.card-title
-				font-size: $tam-secundario !important
+				font-size: $tam-principal !important
 			.card-text
 				text-align: justify
 				font-weight: 300
@@ -153,7 +160,7 @@ body
 			text-align: right
 			margin: 0 0
 		a
-			font-size: 1rem !important
+			font-size: 1.5rem
 			color: $blanco-fuerte !important
 			border-radius: .5rem !important
 			background-color: $rojo !important
@@ -185,16 +192,17 @@ body
 body
 	.about, .soluciones
 		margin-top: 3rem
+		padding-bottom: 3rem
 		.img-about, .img-sol
 			p
 				text-align: center
 				img 
 					box-shadow: 7px 7px 10px rgba(0,0,0,.3)
 					width: 100%
-		.title-about
-			color: $rojo
-			font-family: $font-indie !important
-			font-size: $tam-principal !important
+	.title-about
+		color: $rojo
+		font-family: $font-indie !important
+		font-size: $tam-principal !important
 	.bg
 		background-size: cover
 		background-position: center
@@ -381,6 +389,8 @@ body
 			text-align: center
 			a
 				font-size: $tam-nav !important
+	.special-404-btn
+		margin: 1rem 0rem
 
 /* NOSOTROS */
 body
@@ -442,6 +452,8 @@ body
 			text-align: center
 
 @media screen and (max-width: 576px)
+	html
+		font-size: 12px
 	.natural
 		margin-top: 0rem !important
 		h2
@@ -457,11 +469,16 @@ body
 	.call-subs
 		margin: 0rem !important
 	.natural-serv
-		margin: 2rem 0rem !important
+		padding: 2rem 0rem !important
 	.breadcrumb
 		.title-custom
 			h2
 				font-size: 2rem !important
+	.cd-headline
+		margin: 1rem 0rem !important
+	.normal-btn, .error-actions
+		a
+			font-size: 1.5rem !important
 
 @media screen and (max-width: 992px)
 	footer
@@ -479,6 +496,17 @@ body
 		display: none
 	.bf
 		margin-top: 0rem !important
+	.flavor-secundario
+		display: inline-block
+	.flavor-principal
+		display: none
+	.bottle-flavor
+		.p-img
+			img
+				width: 200px !important
+				max-width: 15% !important
+	.bottle-all-secundario
+		min-height: 160px
 
 /* SABORES */
 body
@@ -520,12 +548,34 @@ body
 		.p-img
 			text-align: center
 			img
-				max-width: 35%
+				max-width: 40%
 	.flavor-principal
 		.row
 			margin-top: 2rem
 			margin-right: 0rem
 			margin-left: 0rem
+	.bottle-all-secundario
+		position: relative
+		overflow: hidden
+		transition: 300ms all ease
+		border-radius: 5px
+		background-color: rgba(255,255,255,.7) !important
+		margin: 1.5rem 0rem
+		img
+			opacity: .2
+		.desc
+			position: absolute
+			transition: top 1s linear
+			top: 0
+			p
+				font-size: 1rem
+		.card-title
+			text-align: center
+			font-weight: 700
+		.card-text
+			text-align: justify
+	.arropa
+		padding: 0rem 1rem
 	.bottle-all
 		position: relative
 		overflow: hidden
@@ -534,6 +584,8 @@ body
 		.desc
 			position: absolute
 			transition: top 1s linear
+			p
+				font-size: 1rem
 		&:hover
 			background-color: rgba(255,255,255,.7) !important
 			img
@@ -549,3 +601,12 @@ body
 		.card
 			background-color: $morado-1
 			color: $blanco-fuerte
+
+/* FORM */
+body
+	.modalF
+		.form-login
+			br
+				display: none
+			input, select, textarea
+				margin: .5rem auto !important
