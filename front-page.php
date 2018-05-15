@@ -6,12 +6,12 @@
 				<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/todos.png" alt="Craft Juices" title="Craft Juices"></p>
 			</div>
 			<div class="natural especial-arriba" style="text-align: center;">
-				<p class="cClip"><h2 class="cd-headline clip">
+				<h2 class="cd-headline clip">
 				<span class="cd-words-wrapper">
 					<b class="is-visible">Natural y Saludable para ti</b>
 					<b>Gruptech Dominican Republic</b>
 				</span>
-				</h2></p>
+				</h2>
 			</div>
 			<div class="col-md-6 info-jugos">
 				<div class="card">
