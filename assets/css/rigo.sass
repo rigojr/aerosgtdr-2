@@ -210,7 +210,6 @@ body
 /* Subscription Form */
 body
 	.call-subs
-		margin-top: 3rem
 		padding-top: 2rem
 		background-color: $rojo
 		.call-subs-title
@@ -475,6 +474,10 @@ body
 				li
 					a
 						text-align: center
+	.vista-pc
+		display: none
+	.bf
+		margin-top: 0rem !important
 
 /* SABORES */
 body
@@ -505,3 +508,43 @@ body
 			text-align: center
 		p
 			padding: 1rem
+	.main-info-flavor
+		p
+			text-align: center
+			font-weight: 700
+			font-size: $tam-menu
+			padding: 0rem !important
+			margin: 0rem !important
+	.bottle-flavor
+		.p-img
+			text-align: center
+			img
+				max-width: 35%
+	.flavor-principal
+		.row
+			margin-top: 2rem
+			margin-right: 0rem
+			margin-left: 0rem
+	.bottle-all
+		position: relative
+		overflow: hidden
+		transition: 300ms all ease
+		border-radius: 5px
+		.desc
+			position: absolute
+			transition: top 1s linear
+		&:hover
+			background-color: rgba(255,255,255,.7) !important
+			img
+				opacity: .2
+			.desc
+				top: 0
+		.card-title
+			text-align: center
+			font-weight: 700
+		.card-text
+			text-align: justify
+	.bf
+		.card
+			background-color: $morado-1
+			color: $blanco-fuerte

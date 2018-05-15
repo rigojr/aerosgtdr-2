@@ -162,7 +162,6 @@ body .clip {
 
 /* Subscription Form */
 body .call-subs {
-  margin-top: 3rem;
   padding-top: 2rem;
   background-color: #CC340B; }
   body .call-subs .call-subs-title {
@@ -411,7 +410,13 @@ body .about .second-cardbody {
     footer .sigu-text {
       text-align: right !important; }
     footer .navigation ul li a {
-      text-align: center; } }
+      text-align: center; }
+
+  .vista-pc {
+    display: none; }
+
+  .bf {
+    margin-top: 0rem !important; } }
 /* SABORES */
 body .flavor {
   margin: 0rem;
@@ -440,5 +445,41 @@ body .juices {
     text-align: center; }
   body .juices p {
     padding: 1rem; }
+body .main-info-flavor p {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0rem !important;
+  margin: 0rem !important; }
+body .bottle-flavor .p-img {
+  text-align: center; }
+  body .bottle-flavor .p-img img {
+    max-width: 35%; }
+body .flavor-principal .row {
+  margin-top: 2rem;
+  margin-right: 0rem;
+  margin-left: 0rem; }
+body .bottle-all {
+  position: relative;
+  overflow: hidden;
+  transition: 300ms all ease;
+  border-radius: 5px; }
+  body .bottle-all .desc {
+    position: absolute;
+    transition: top 1s linear; }
+  body .bottle-all:hover {
+    background-color: rgba(255, 255, 255, 0.7) !important; }
+    body .bottle-all:hover img {
+      opacity: 0.2; }
+    body .bottle-all:hover .desc {
+      top: 0; }
+  body .bottle-all .card-title {
+    text-align: center;
+    font-weight: 700; }
+  body .bottle-all .card-text {
+    text-align: justify; }
+body .bf .card {
+  background-color: #482E78;
+  color: #FFFFFF; }
 
 /*# sourceMappingURL=rigo.css.map */

@@ -28,5 +28,5 @@
 		<p><a class="btn btn-success openF">Contacto</a></p>
 	</div>
 </div>
-
+</div>
 <?php get_footer(); ?>

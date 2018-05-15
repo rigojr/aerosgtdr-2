@@ -53,7 +53,7 @@
 	</span>
 	</h1>
 </div>
-
+</div>
 <?php get_template_part( 'subs-form' ); ?>
 
 <div class="wrap row about">
