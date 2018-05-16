@@ -1,0 +1,95 @@
+.supra-header{
+	font-size: 1rem;
+	background-color: #000;
+	color: #fff;
+}
+
+.supra-header .row .row{
+	padding-top: 0.6rem;
+}
+
+#nice-info-1{
+	text-align: right;
+}
+
+.info img{
+	width: 16px;
+	height: 16px;
+}
+
+.info p{
+	text-align: center;
+	padding: 0rem 1rem;
+}
+
+.header{
+	margin-top: 1rem;
+}
+
+.header p{
+	text-align: center;
+}
+
+.header img{
+	width: 10rem;
+}
+
+.nice-info-2 h1{
+	padding-top: 2rem;
+	text-align: center;
+	font-size: 2rem;
+}
+
+.nice-info-2 h1 span{
+	font-family: 'Indie Flower', cursive;
+	font-weight: 700;
+}
+
+.nice-info-2 p{
+	font-size: 1.7rem;
+	font-weight: 700;
+	font-family: 'Indie Flower', cursive;
+}
+
+.wrap{
+	padding: 1rem 5rem;
+}
+
+.nice-img p{
+	text-align: center;
+	margin-top: 3rem;
+}
+
+.nice-img img{
+	width: 100%;
+}
+
+
+footer{
+	background-color: #000;
+	padding: 1rem 0rem;
+}
+
+footer p{
+	text-align: center;
+	color: #fff;
+	margin: 0rem;
+}
+
+footer img{
+	max-width: 150px;
+}
+
+.nice-info-3{
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+}
+
+.nice-info-3 span{
+	font-weight: 700;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #000;
+}
