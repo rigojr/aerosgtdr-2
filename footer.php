@@ -37,26 +37,23 @@
 					<div class="col-lg-4">
 						<ul>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Inicio</a>
+								<a class="nav-link" href="<?php echo esc_url( home_url( '/' ) ); ?>">Inicio</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Nosotros</a>
+								<a class="nav-link" href="<?php echo esc_url( home_url( '/' ) ); ?>/nosotros">Nosotros</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Sabores</a>
+								<a class="nav-link" href="<?php echo esc_url( home_url( '/' ) ); ?>/sabores">Sabores</a>
 							</li>
 						</ul>
 					</div>
 					<div class="col-lg-8">
 						<ul>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Servicios</a>
+								<a class="nav-link" href="<?php echo esc_url( home_url( '/' ) ); ?>/servicios">Servicios</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Contacto</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Política de Privacidad</a>
+								<a class="nav-link" id="contact" href="#">Contacto</a>
 							</li>
 						</ul>
 					</div>
