@@ -1,105 +1,133 @@
-<?php get_header(); ?>
 
-	<div class="wrap">
-		<div class="row first-view-info">
-			<div class="col-md-6 img-jugos">
-				<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/todos.png" alt="Craft Juices" title="Craft Juices"></p>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Gruptech Dominican Republic | Produccion de Jugos organicos naturales y Nuevas soluciones de empaque y embalaje para la industria Dominicana</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/dummy-styles.css">
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+<body>
+	<div class="container-fluid supra-header">
+  		<div class="row">
+  			<div class="col-sm-8">
+  				<div class="row info">
+  						<p>
+  							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/dummy-imgs/location.png" alt="Location">
+  							Dominican Republic
+  						</p>
+  						<p>
+  							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/dummy-imgs/email.png" alt="email">
+  							gruptechdr_operat@gruptechdr.com
+  						</p>
+  						<p>
+  							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/dummy-imgs/phone.png" alt="phone">
+  							+1 (829) 410-0286
+  						</p>
+  				</div>
+  			</div>
+  			<div class="col-sm-4">
+  				<div class="row">
+  					<div class="col-sm-12">
+  						<p id="nice-info-1">
+  							<b>Gruptech Dominican Republic, SRL</b>
+  						</p>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+
+  	<div class="container-fluid header">
+  		<div class="row">
+  			<div class="col-sm-12 nice-info-2">
+  				<h1>
+					Próximamente un producto de <span>calidad, natural y saludable para ti</span>
+				</h1>
+				<p>
+					¿Quieres ser uno de los primeros en adquirirlo?
+				</p>
+  			</div>
+  		</div>
+  	</div>
+
+	<div class="container-fluid wrap">
+		<div class="row">
+			<div class="col-sm-6">
+<form action="" method="post">
+	<div class="form-group">
+    <label for="InputNombre">Nombre</label>
+    <input type="text" class="form-control" id="InputNombre" name="InputNombre" required>
+  </div>
+  <div class="form-group">
+    <label for="InputEmail1">Correo electrónico</label>
+    <input type="email" class="form-control" id="InputEmail1" name="InputEmail1" aria-describedby="emailHelp" placeholder="your@email.here" required>
+    <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu correo electrónico con nadie.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Cometarios</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" name="exampleFormControlTextarea1" rows="3" required></textarea>
+  </div>
+  <div class="form-group">
+  	<div class="g-recaptcha" data-sitekey="6LfxYTwUAAAAADY6WQEGW9G1IlIO8QWCX9hRzTtp"></div>
+  	</div>
+  <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
 			</div>
-			<div class="natural especial-arriba" style="text-align: center;">
-				<h2 class="cd-headline clip">
-				<span class="cd-words-wrapper">
-					<b class="is-visible">Natural y Saludable para ti</b>
-					<b>Gruptech Dominican Republic</b>
-				</span>
-				</h2>
+			<div class="col-sm-6 nice-img">
+				<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <img class="d-block img-fluid " src="<?php echo get_template_directory_uri(); ?>/assets/img/dummy-imgs/todos.png" alt="todos">
+            </div>
+            <div class="carousel-item ">
+              <img class="d-block img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/dummy-imgs/green.png" alt="verde">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/dummy-imgs/orange.png" alt="naranja">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/dummy-imgs/red.png" alt="rojo">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/dummy-imgs/yellow.png" alt="amarillo">
+            </div>
+            <div class="carousel-item ">
+              <img class="d-block img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/dummy-imgs/jugitos.jpg" alt="zumissimo">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+        </div>
 			</div>
-			<div class="col-md-6 info-jugos">
-				<div class="card">
-					<div class="card-body">
-						<h2 class="card-title title-about">Craft Juice</h2>
-						<p class="card-text">
-    						Jugos elaborados a base de frutas y vegetales, dirigido a aquellos con deficiencia de alcalinidad y que deseen desintoxicarse, con líneas de producción definidas específicamente como la roja, verde, amarilla y blanca.
-    					</p>
-    					<div class="normal-btn">
-    						<p><a class="btn btn-success openF" href="<?php echo esc_url( home_url( '/' ) ); ?>/sabores"">Leer Más</a></p>
-    					</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="natural especial-abajo">
-			<h2 class="cd-headline clip">
-			<span class="cd-words-wrapper">
-				<b class="is-visible">Natural y Saludable para ti</b>
-				<b>Gruptech Dominican Republic</b>
-			</h2>
 		</div>
 	</div>
-
-	<div class="wrap row about">
-		<div class="col-md-6 img-about">
-			<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/about.jpg" alt="Sobre GTDR" title="Sobre Gruptech Dominican Republic"></p>
-		</div>
-		<div class="col-md-6">
-			<div class="card">
-				<div class="card-body">
-					<h2 class="title-about">Sobre GruptechDR</h2>
-					<div class="card-text">
-						<p>Gruptech Cloud Dominican Republic es una empresa fundada octubre del año 2017 que se encarga de elaborar y fabricar jugos de alto valor nutricional a base de frutas.</p>
-						<p>Nuestra misión es promover el consumo combinado de frutas y vegetales, aportando beneficios para la salud. Respetar el medio ambiente y elaborar productos de alta calidad, brindando  confianza a los consumidores.</p>
-						<p>Gracias a la constante innovación  de nuestros ejecutivos y a pesar de ser una empresa joven, contamos con presencia en países como México, Guatemala,  Honduras, El Salvador, Costa Rica, Nicaragua, Panamá, Colombia, Perú,  Ecuador, Chile, Argentina, Brasil, República Dominicana, Puerto Rico, Trinidad y Tobago y  Guyana.</p>
-					</div>
-					<div class="normal-btn">
-						<p><a class="btn btn-success openF" href="<?php echo esc_url( home_url( '/' ) ); ?>/nosotros">Leer Más</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
+	<div class="nice-info-3">
+		<h1>Nuestro sitio web está <span>en construcción</span></h1>
 	</div>
-
-	<?php get_template_part( 'subs-form' ); ?>
-	<div class="bg" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/background-down.jpg');">
-		<div class="wrap row soluciones">
-			<div class="col-md-6">
-				<div class="card">
-					<div class="card-body">
-						<h2 class="title-about">Soluciones para la Industria Dominicana</h2>
-						<p class="card-text">
-							Más allá de la fabricación y elaboración de jugos naturales, Gruptech Dominican Republic pone a la disposición de la industria Dominicana los productos y servicios a continuación:
-							<ul class="p-normal">
-								<li>Suministros y consumibles</li>
-								<li>Integración de líneas de producción completas</li>
-								<li>Manejo de materiales</li>
-								<li>Ventas de Maquinarias</li>
-							</ul>
-						</p>
-						<div class="normal-btn">
-							<p><a class="btn btn-success openF" href="<?php echo esc_url( home_url( '/' ) ); ?>/servicios">Leer Más</a></p>
-						</div>
-					</div>
-				</div>
-				<div class="natural">
-			<h1 class="cd-headline push">
-			<span class="cd-words-wrapper">
-				<b class="is-visible">Trabajo en Equipo</b>
-				<b class="is-hidden">Compromiso</b>
-				<b class="is-hidden">Responsabilidad</b>
-				<b class="is-hidden">Respeto</b>
-				<b class="is-hidden">Honestidad</b>
-				<b class="is-hidden">Inclusión</b>
-				<b class="is-hidden">Pasión</b>
-				<b class="is-hidden">Motivación</b>
-				<b class="is-hidden">Sostenibilidad</b>
-			</span>
-			</h1>
-		</div>
-			</div>
-			<div class="col-md-6 img-sol">
-				<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/soluciones.jpg" alt="Soluciones Industriales" alt="Soluciones para la industria Dominicana"></p>
-			</div>
-		</div>
-
-	</div>
-</div>
-
-<?php get_footer(); ?>
+	<footer class="container-fluid">
+		<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/dummy-imgs/logo.png" alt="Gruptech Dominican Republic"></p>
+		<p>Copyright © 2018 Gruptech Dominican Republic, SRL</p>
+		<p>Managed by <a href="https://www.linkedin.com/in/jose-salas">José Salas</a></p>
+	</footer>
+	<script type="text/javascript">
+		var dir = window.location;
+		if(dir == 'http://gruptechdr.com/index.html?FALSE')
+			alert('Error')
+		if(dir == 'http://gruptechdr.com/index.html?TRUE')
+			alert('Successfully sent')
+	</script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>
