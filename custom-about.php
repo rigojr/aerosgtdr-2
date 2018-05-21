@@ -27,7 +27,7 @@
 				<div class="card-body">
 					<div class="card-text">
 						<p>Nuestra misión es promover el consumo combinado de frutas y vegetales, aportando beneficios para la salud. Respetar el medio ambiente y elaborar productos de alta calidad, brindando  confianza a los consumidores.</p>
-						<p><b>Gracias a la constante innovación  de nuestros ejecutivos</b> y a pesar de ser una empresa joven, contamos con presencia en países como México, Guatemala,  Honduras, El Salvador, Costa Rica, Nicaragua, Panamá, Colombia, Perú,  Ecuador, Chile, Argentina, Brasil, República Dominicana, Puerto Rico, Trinidad y Tobago y  Guyana.</p>
+						<p><b>Gracias a la constante innovación de nuestros ejecutivos</b> y a pesar de ser una empresa joven, tenemos planeado incursionar  con la ayuda de nuestra empresa matriz Gruptech International, Inc., tener presencia en países como México, Guatemala, Honduras, El Salvador, Costa Rica, Nicaragua, Panamá, Colombia, Perú, Ecuador, Chile, Argentina, Brasil, República Dominicana, Puerto Rico, Trinidad y Tobago y Guyana, mediante inversion directa o a través de socios, franquicias y distribuidores.</p>
 					</div>
 				</div>
 			</div>

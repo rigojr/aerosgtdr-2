@@ -110,6 +110,13 @@
   .wrap.bf .col-sm-6 p {
     text-align: justify; }
 
+.flavor-title {
+  text-align: center;
+  font-family: "Indie Flower", cursive !important;
+  color: #482E78;
+  padding-top: 0.4rem;
+  font-weight: bold !important; }
+
 /*FORM */
 .contact {
   margin-bottom: 2rem;

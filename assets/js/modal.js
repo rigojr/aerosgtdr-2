@@ -8,6 +8,13 @@ $('.close-modalF').click(function(){
     elements.removeClass('active');
 });
 
+$('.wpcf7-submit').click(function checkForChanges(){
+    if ($('div').hasClass('wpcf7-response-output') && ($('.wpcf7-response-output').text()=="Thank you for your message. It has been sent."))
+        elements.removeClass('active');
+    else
+        setTimeout(checkForChanges, 500);
+});
+
 $('#al').click(function(){
     $('#al p').addClass('activeF');
     $('#de p').removeClass('activeF');

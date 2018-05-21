@@ -7,6 +7,20 @@
 
 <div class="wrap flavor-principal container">
 	<div class="row">
+		<div class="col-lg-3 col-md-6">
+			<h2 class="flavor-title">Alcalinos</h2>
+		</div>
+		<div class="col-lg-3 col-md-6">
+			<h2 class="flavor-title">Desintoxicantes</h2>
+		</div>
+		<div class="col-lg-3 col-md-6">
+			<h2 class="flavor-title">Antioxidante y Refrescante</h2>
+		</div>
+		<div class="col-lg-3 col-md-6">
+			<h2 class="flavor-title">Nutritivo</h2>
+		</div>
+	</div>
+	<div class="row">
 		<div class="bottle-all col-lg-3 col-md-6">
 		<div class="bottle-flavor">
 			<p class="p-img" style="text-align: center;"><img class="card-img-top" src="<?php echo get_template_directory_uri(); ?>/assets/img/red.png" alt="Craft Juice Red Bottle"></p>

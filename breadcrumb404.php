@@ -23,7 +23,7 @@
 								<p><a class="btn btn-success openF" href="#">Contacto</a></p>
 							</div>
 							<div class="normal-btn btn-serv special-404-btn">
-								<p><a class="btn btn-success openF" href="<?php echo esc_url( home_url( '/' ) ); ?>">Llévame de Vuelta</a></p>
+								<p><a class="btn btn-success" href="<?php echo esc_url( home_url( '/inicio' ) ); ?>">Llévame de Vuelta</a></p>
 							</div>
 		                </div>
 		            </div>

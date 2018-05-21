@@ -1,3 +1,4 @@
+<?php /* Template Name: inicio-custom*/ ?>
 <?php get_header(); ?>
 
 	<div class="wrap">
@@ -45,7 +46,7 @@
 				<div class="card-body">
 					<h2 class="title-about">Sobre GruptechDR</h2>
 					<div class="card-text">
-						<p>Gruptech Cloud Dominican Republic es una empresa fundada octubre del año 2017 que se encarga de elaborar y fabricar jugos de alto valor nutricional a base de frutas.</p>
+						<p>Gruptech Dominican Republic es una empresa fundada octubre del año 2017 que se encarga de elaborar y fabricar jugos de alto valor nutricional a base de frutas.</p>
 						<p>Nuestra misión es promover el consumo combinado de frutas y vegetales, aportando beneficios para la salud. Respetar el medio ambiente y elaborar productos de alta calidad, brindando  confianza a los consumidores.</p>
 						<p>Gracias a la constante innovación  de nuestros ejecutivos y a pesar de ser una empresa joven, contamos con presencia en países como México, Guatemala,  Honduras, El Salvador, Costa Rica, Nicaragua, Panamá, Colombia, Perú,  Ecuador, Chile, Argentina, Brasil, República Dominicana, Puerto Rico, Trinidad y Tobago y  Guyana.</p>
 					</div>
