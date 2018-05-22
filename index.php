@@ -48,7 +48,7 @@
 					<div class="card-text">
 						<p>Gruptech Dominican Republic es una empresa fundada octubre del año 2017 que se encarga de elaborar y fabricar jugos de alto valor nutricional a base de frutas.</p>
 						<p>Nuestra misión es promover el consumo combinado de frutas y vegetales, aportando beneficios para la salud. Respetar el medio ambiente y elaborar productos de alta calidad, brindando  confianza a los consumidores.</p>
-						<p>Gracias a la constante innovación  de nuestros ejecutivos y a pesar de ser una empresa joven, contamos con presencia en países como México, Guatemala,  Honduras, El Salvador, Costa Rica, Nicaragua, Panamá, Colombia, Perú,  Ecuador, Chile, Argentina, Brasil, República Dominicana, Puerto Rico, Trinidad y Tobago y  Guyana.</p>
+						<p>Gracias a la constante innovación de nuestros ejecutivos y a pesar de ser una empresa joven, tenemos planeado incursionar con la ayuda de nuestra empresa matriz Gruptech International, Inc., tener presencia en países como México, Guatemala, Honduras, El Salvador, Costa Rica, Nicaragua, Panamá, Colombia, Perú, Ecuador, Chile, Argentina, Brasil, República Dominicana, Puerto Rico, Trinidad y Tobago y Guyana, mediante inversion directa o a través de socios, franquicias y distribuidores.</p>
 					</div>
 					<div class="normal-btn">
 						<p><a class="btn btn-success openF" href="<?php echo esc_url( home_url( '/' ) ); ?>/nosotros">Leer Más</a></p>
