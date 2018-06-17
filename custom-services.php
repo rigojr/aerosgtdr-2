@@ -11,7 +11,7 @@
 				<h2>Suministros y Consumibles</h2>
 				<li><b>Tapas</b> de 22mm a 110mm estilo 400, CRC a prueba de niños, 28mm de anillos desprendibles.</li>
 				<li><b>Liner para Tapas</b>, todo tipo de liners en cartón, inducción y sensitivos a la presión para la Industria Alimenticia, Química, Automotriz y Farmacéutica.</li>
-				<li><b>Cinta - Ribbon - Teflón</b>, para emplear en codificadores Hot Stamping tipo Norwood, Allen & Kingsley.</li>
+				<li><b>Cinta - Ribbon - Teflón</b>, para emplear en codificadores Hot Stamping tipo Norwood, Allen &amp; Kingsley.</li>
 				<li><b>Cintas Auto-Adheribles</b>, en rollos de espuma y varios tipos de plásticos, anti-resbalantes.</li>
 				<li><b>Barnices y Adhesivos UV y WB</b>, para la industria Flexo-gráfica, Seri-gráfica, Offset. Para laminación de etiquetas con BOPP. Cohesivos, Adhesivos Solvent-less y Base Solvente.</li>
 				<li><b>Película PVC Y PETg</b>, para fabricar mangas termo-encogibles. </li>

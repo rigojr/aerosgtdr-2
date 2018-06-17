@@ -76,7 +76,7 @@
 		<div class="pos-f-t mobile-navigation">
 	    <div class="collapse" id="navbarToggleExternalContent">
 	      <div class="bg-dark p-4">
-	        <h4 class="text-white">Gruptech Dominica Republic</h4>
+	        <h4 class="text-white">Gruptech Dominic Republic</h4>
 	        <p class="text-white">Menú de navegación</p>
 	       		<div class="supra-info">
 					<ul class="nav">

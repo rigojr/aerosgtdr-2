@@ -116,6 +116,8 @@
   color: #482E78;
   padding-top: 0.4rem;
   font-weight: bold !important; }
+  .flavor-title.smallT {
+    padding-top: 2.1rem; }
 
 /*FORM */
 .contact {

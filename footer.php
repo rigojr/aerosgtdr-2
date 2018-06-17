@@ -10,14 +10,14 @@
 					</div>
 					<div class="col-lg-6 col-7">
 						<ul class="rrss-footer nav">
-							<li class="nav-item"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/facebook-logo.png" alt="Facebook"></a></li>
-							<li class="nav-item"><a 	href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/instagram-logo.png" alt="Instagram"></a></li>
-							<li class="nav-item"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/linkedin-logo.png" alt="Linkedin"></a></li>
+							<li class="nav-item"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/facebook-logo.png" alt="Facebook" title="Facebook GTDR"></a></li>
+							<li class="nav-item"><a 	href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/instagram-logo.png" alt="Instagram" title="Instagram GTDR"></a></li>
+							<li class="nav-item"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/linkedin-logo.png" alt="Linkedin" title="LinkedIn GTDR"></a></li>
 						</ul>
 					</div>
 				</div>
 				<p class="autoria">
-					Diseñado, Desarrollado & Gestionado por <a href="https://aeros.io">Aeros</a>
+					Diseñado, Desarrollado &amp; Gestionado por <a href="https://aeros.io">Aeros</a>
 				</p>
 			</div>
 			<div class="col-lg-4 center">

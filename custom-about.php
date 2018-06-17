@@ -6,7 +6,7 @@
 
 <div class="wrap row about">
 		<div class="col-sm-4 img-about">
-			<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/about.jpg" alt="Sobre GTDR"></p>
+			<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/about.jpg" alt="Sobre GTDR" title="Sobre GTDR"></p>
 		</div>
 		<div class="col-sm-8">
 			<div class="card first-cardbody">
